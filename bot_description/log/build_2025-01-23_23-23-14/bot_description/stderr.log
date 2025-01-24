@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+error: can't copy '/home/goblue/my_ws/bot_description/build/bot_description/urdf/build': doesn't exist or not a regular file

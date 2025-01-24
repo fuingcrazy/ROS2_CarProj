@@ -1,0 +1,30 @@
+[0.361s] Invoking command in '/home/goblue/my_ws/bot_description/build/bot_description': PYTHONPATH=/home/goblue/my_ws/bot_description/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/goblue/my_ws/bot_description/build/bot_description/build --no-deps symlink_data
+[0.505s] running develop
+[0.506s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.507s]   warnings.warn(
+[0.601s] running egg_info
+[0.601s] creating bot_description.egg-info
+[0.602s] writing bot_description.egg-info/PKG-INFO
+[0.602s] writing dependency_links to bot_description.egg-info/dependency_links.txt
+[0.602s] writing entry points to bot_description.egg-info/entry_points.txt
+[0.602s] writing requirements to bot_description.egg-info/requires.txt
+[0.602s] writing top-level names to bot_description.egg-info/top_level.txt
+[0.603s] writing manifest file 'bot_description.egg-info/SOURCES.txt'
+[0.604s] reading manifest file 'bot_description.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'bot_description.egg-info/SOURCES.txt'
+[0.605s] running build_ext
+[0.605s] Creating /home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages/bot-description.egg-link (link to .)
+[0.606s] Installing rotate_wheels script to /home/goblue/my_ws/bot_description/install/bot_description/lib/bot_description
+[0.606s] 
+[0.606s] Installed /home/goblue/my_ws/bot_description/build/bot_description
+[0.606s] running symlink_data
+[0.606s] creating /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index
+[0.607s] creating /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index/resource_index
+[0.607s] creating /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index/resource_index/packages
+[0.607s] symbolically linking /home/goblue/my_ws/bot_description/build/bot_description/resource/bot_description -> /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index/resource_index/packages
+[0.607s] symbolically linking /home/goblue/my_ws/bot_description/build/bot_description/package.xml -> /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description
+[0.607s] creating /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/launch
+[0.607s] symbolically linking /home/goblue/my_ws/bot_description/build/bot_description/launch/display_robot_rviz2.launch.py -> /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/launch
+[0.607s] creating /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/urdf
+[0.607s] error: can't copy '/home/goblue/my_ws/bot_description/build/bot_description/urdf/build': doesn't exist or not a regular file
+[0.628s] Invoked command in '/home/goblue/my_ws/bot_description/build/bot_description' returned '1': PYTHONPATH=/home/goblue/my_ws/bot_description/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/goblue/my_ws/bot_description/build/bot_description/build --no-deps symlink_data

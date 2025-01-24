@@ -1,0 +1,3 @@
+[console_scripts]
+rotate_wheels = bot_description.wheel_control:main
+

@@ -1,0 +1,36 @@
+[0.411s] Invoking command in '/home/goblue/my_ws/bot_description': PYTHONPATH=/home/goblue/my_ws/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bot_description build --build-base /home/goblue/my_ws/build/bot_description/build install --record /home/goblue/my_ws/build/bot_description/install.log --single-version-externally-managed install_data
+[0.550s] running egg_info
+[0.550s] creating ../build/bot_description/bot_description.egg-info
+[0.551s] writing ../build/bot_description/bot_description.egg-info/PKG-INFO
+[0.551s] writing dependency_links to ../build/bot_description/bot_description.egg-info/dependency_links.txt
+[0.551s] writing entry points to ../build/bot_description/bot_description.egg-info/entry_points.txt
+[0.551s] writing requirements to ../build/bot_description/bot_description.egg-info/requires.txt
+[0.551s] writing top-level names to ../build/bot_description/bot_description.egg-info/top_level.txt
+[0.551s] writing manifest file '../build/bot_description/bot_description.egg-info/SOURCES.txt'
+[0.554s] reading manifest file '../build/bot_description/bot_description.egg-info/SOURCES.txt'
+[0.554s] writing manifest file '../build/bot_description/bot_description.egg-info/SOURCES.txt'
+[0.554s] running build
+[0.554s] running build_py
+[0.554s] creating /home/goblue/my_ws/build/bot_description/build
+[0.554s] creating /home/goblue/my_ws/build/bot_description/build/lib
+[0.555s] creating /home/goblue/my_ws/build/bot_description/build/lib/bot_description
+[0.555s] copying bot_description/__init__.py -> /home/goblue/my_ws/build/bot_description/build/lib/bot_description
+[0.555s] copying bot_description/wheel_control.py -> /home/goblue/my_ws/build/bot_description/build/lib/bot_description
+[0.555s] running install
+[0.555s] running install_lib
+[0.556s] creating /home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages/bot_description
+[0.556s] copying /home/goblue/my_ws/build/bot_description/build/lib/bot_description/__init__.py -> /home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages/bot_description
+[0.556s] copying /home/goblue/my_ws/build/bot_description/build/lib/bot_description/wheel_control.py -> /home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages/bot_description
+[0.556s] byte-compiling /home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages/bot_description/__init__.py to __init__.cpython-310.pyc
+[0.557s] byte-compiling /home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages/bot_description/wheel_control.py to wheel_control.cpython-310.pyc
+[0.557s] running install_data
+[0.557s] creating /home/goblue/my_ws/install/bot_description/share/ament_index
+[0.557s] creating /home/goblue/my_ws/install/bot_description/share/ament_index/resource_index
+[0.557s] creating /home/goblue/my_ws/install/bot_description/share/ament_index/resource_index/packages
+[0.557s] copying resource/bot_description -> /home/goblue/my_ws/install/bot_description/share/ament_index/resource_index/packages
+[0.557s] copying package.xml -> /home/goblue/my_ws/install/bot_description/share/bot_description
+[0.558s] creating /home/goblue/my_ws/install/bot_description/share/bot_description/launch
+[0.558s] copying launch/display_robot_rviz2.launch.py -> /home/goblue/my_ws/install/bot_description/share/bot_description/launch
+[0.558s] creating /home/goblue/my_ws/install/bot_description/share/bot_description/urdf
+[0.558s] error: can't copy 'urdf/build': doesn't exist or not a regular file
+[0.569s] Invoked command in '/home/goblue/my_ws/bot_description' returned '1': PYTHONPATH=/home/goblue/my_ws/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bot_description build --build-base /home/goblue/my_ws/build/bot_description/build install --record /home/goblue/my_ws/build/bot_description/install.log --single-version-externally-managed install_data

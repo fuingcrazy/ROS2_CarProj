@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating bot_description.egg-info
+writing bot_description.egg-info/PKG-INFO
+writing dependency_links to bot_description.egg-info/dependency_links.txt
+writing entry points to bot_description.egg-info/entry_points.txt
+writing requirements to bot_description.egg-info/requires.txt
+writing top-level names to bot_description.egg-info/top_level.txt
+writing manifest file 'bot_description.egg-info/SOURCES.txt'
+reading manifest file 'bot_description.egg-info/SOURCES.txt'
+writing manifest file 'bot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages/bot-description.egg-link (link to .)
+Installing rotate_wheels script to /home/goblue/my_ws/bot_description/install/bot_description/lib/bot_description
+
+Installed /home/goblue/my_ws/bot_description/build/bot_description
+running symlink_data
+creating /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index
+creating /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index/resource_index
+creating /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index/resource_index/packages
+symbolically linking /home/goblue/my_ws/bot_description/build/bot_description/resource/bot_description -> /home/goblue/my_ws/bot_description/install/bot_description/share/ament_index/resource_index/packages
+symbolically linking /home/goblue/my_ws/bot_description/build/bot_description/package.xml -> /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description
+creating /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/launch
+symbolically linking /home/goblue/my_ws/bot_description/build/bot_description/launch/display_robot_rviz2.launch.py -> /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/launch
+creating /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/urdf
