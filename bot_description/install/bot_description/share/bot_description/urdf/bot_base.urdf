@@ -27,6 +27,36 @@
     </inertial>
 </link> 
 
+<link name="LiDAR">
+  <visual>
+    <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+     <geometry>
+       <cylinder radius="0.1" length="0.08"/>
+     </geometry>
+     <material name="Lithium">
+        <color rgba="1.0 1.0 0.0 0.8"/>
+     </material>
+  </visual>
+  <collision>
+    <geometry>
+       <cylinder radius="0.1" length="0.08"/>
+     </geometry>
+  </collision>
+  <inertial>
+    <mass value="5.0"/>
+    <inertia ixx="0.01517" ixy="0.0" ixz="0.0" 
+             iyy="0.01517" iyz="0.0" 
+             izz="0.025"/>
+  </inertial>
+</link>
+
+<joint name="LiDAR_joint" type="fixed">
+  <origin xyz="0.22 0 0.13" rpy="0.0 0.0 0.0"/>
+  <parent link="base"/>
+  <child link="LiDAR"/>
+  <axis xyz="0.0 0.0 0.0"/>
+</joint>
+
 <joint name="base_print" type="fixed">
   <parent link="base_footprint"/>
   <child link="base"/>
@@ -36,7 +66,7 @@
   <link name="front_left_wheel">
    <visual>
     <geometry>
-        <cylinder length="0.1" radius="0.15"/>
+        <cylinder length="0.1" radius="0.12"/>
     </geometry>
     <material name="steel">
         <color rgba="0.0 0.0 1 0.5"/>
@@ -56,18 +86,32 @@
   <link name="front_left_roll">
     <visual>
       <geometry>
-        <cylinder radius="0.15" length="0.1"/>
+        <cylinder radius="0.12" length="0.1"/>
       </geometry>
       <material name="steel">
         <color rgba="0.0 0.0 1 0.5"/>
     </material>
+    </visual>
     <collision>
+      <geometry>
+        <cylinder radius="0.12" length="0.1"/>
+      </geometry>
+      <material>
+        <color rgba="0.0 0.0 1 0.5"/>
+      </material>
+    </collision>
+    <inertial>
       <mass value="5.0"/>
       <inertia ixx="0.03229" ixy="0.0" ixz="0.0"
                 iyy="0.03229" iyz="0.0" 
                 izz="0.05625"/>
-    </collision>
-    </visual>
+    </inertial>
+    <gazebo reference="front_left_roll">
+       <mu>1.0</mu>              
+       <mu2>1.0</mu2>             
+       <kp>100000.0</kp>          
+       <kd>100.0</kd>             
+   </gazebo> 
   </link>
 
   <joint name="front_left_roll_joint" type="continuous">
@@ -80,7 +124,7 @@
  <link name="front_right_wheel">
     <visual>
       <geometry>
-        <cylinder length="0.1" radius="0.15"/>
+        <cylinder length="0.1" radius="0.12"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 1 0.5"/>
@@ -99,18 +143,32 @@
   <link name="front_right_roll">
     <visual>
       <geometry>
-        <cylinder length="0.1" radius="0.15"/>
+        <cylinder length="0.1" radius="0.12"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 1 0.5"/>
       </material>
-      <collision>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.12" length="0.1"/>
+      </geometry>
+      <material>
+        <color rgba="0.0 0.0 1 0.5"/>
+      </material>
+    </collision>
+    <inertial>
       <mass value="5.0"/>
       <inertia ixx="0.03229" ixy="0.0" ixz="0.0"
                 iyy="0.03229" iyz="0.0" 
                 izz="0.05625"/>
-    </collision>
-    </visual>
+    </inertial>
+    <gazebo reference="front_right_roll">
+       <mu>1.0</mu>              
+       <mu2>1.0</mu2>             
+       <kp>100000.0</kp>          
+       <kd>100.0</kd>             
+   </gazebo>
   </link>
 
   <joint name="front_right_roll_joint" type="continuous">
@@ -123,18 +181,32 @@
    <link name="rear_left_wheel">
     <visual>
       <geometry>
-        <cylinder length="0.1" radius="0.15"/>
+        <cylinder length="0.1" radius="0.12"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 1 0.8"/>
       </material>
-      <collision>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.12" length="0.1"/>
+      </geometry>
+      <material>
+        <color rgba="0.0 0.0 1 0.5"/>
+      </material>
+    </collision>
+    <inertial>
       <mass value="5.0"/>
       <inertia ixx="0.03229" ixy="0.0" ixz="0.0"
                 iyy="0.03229" iyz="0.0" 
                 izz="0.05625"/>
-    </collision>
-    </visual>
+    </inertial>
+    <gazebo reference="rear_left_wheel">
+       <mu>1.0</mu>              
+       <mu2>1.0</mu2>             
+       <kp>100000.0</kp>          
+       <kd>100.0</kd>             
+   </gazebo>
   </link>
 
   <joint name="rear_left_wheel_joint" type="continuous">
@@ -148,18 +220,33 @@
   <link name="rear_right_wheel">
     <visual>
       <geometry>
-        <cylinder length="0.1" radius="0.15"/>
+        <cylinder length="0.1" radius="0.12"/>
       </geometry>
       <material name="black">
         <color rgba="0 0 1 0.8"/>
       </material>
-      <collision>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.12" length="0.1"/>
+      </geometry>
+      <material>
+        <color rgba="0.0 0.0 1 0.5"/>
+      </material>
+    </collision>
+    <inertial>
       <mass value="5.0"/>
       <inertia ixx="0.03229" ixy="0.0" ixz="0.0"
                 iyy="0.03229" iyz="0.0" 
                 izz="0.05625"/>
-    </collision>
-    </visual>
+    </inertial>
+
+    <gazebo reference="rear_right_wheel">
+       <mu>1.0</mu>              
+       <mu2>1.0</mu2>            
+       <kp>100000.0</kp>        
+       <kd>100.0</kd>            
+   </gazebo>
   </link>
 
   <joint name="rear_right_wheel_joint" type="continuous">
@@ -168,6 +255,33 @@
     <origin xyz="-0.4 -0.42 0" rpy="1.57 0 0"/>
     <axis xyz="0 0.0 1.0"/>
   </joint>
+
+  <gazebo>
+  <plugin name="ackermann_steering" filename="libackermann_steering_plugin.so">
+    <steering_link>front_left_steering</steering_link>
+    <steering_link>front_right_steering</steering_link>
+    <wheel_link>front_left_wheel</wheel_link>
+    <wheel_link>front_right_wheel</wheel_link>
+    <wheel_link>rear_left_wheel</wheel_link>
+    <wheel_link>rear_right_wheel</wheel_link>
+    <max_steering_angle>0.5</max_steering_angle>
+    <wheel_separation>0.84</wheel_separation>
+    <wheel_radius>0.15</wheel_radius>
+  </plugin>
+</gazebo>
+
+<gazebo>
+  <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+    <left_joint>rear_left_wheel_joint</left_joint>
+    <right_joint>rear_right_wheel_joint</right_joint>
+    <wheel_separation>0.84</wheel_separation>
+    <wheel_radius>0.15</wheel_radius>
+    <update_rate>100.0</update_rate>
+  </plugin>
+</gazebo>
 </robot>
+
+
+
 
 

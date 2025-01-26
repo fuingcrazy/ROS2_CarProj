@@ -11,8 +11,12 @@ build/bot_description/bot_description.egg-info/requires.txt
 build/bot_description/bot_description.egg-info/top_level.txt
 build/bot_description/bot_description.egg-info/zip-safe
 launch/display_robot_rviz2.launch.py
+launch/gazebo_display.launch.py
 resource/bot_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/bot_base.urdf
+urdf/yuBot_base.xacro
+urdf/yuBot_gazebo_core.xacro
+urdf/yuBot_sim.xacro
