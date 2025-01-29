@@ -1,0 +1,177 @@
+[0.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.084s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f46bf306b30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f46bf306050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f46bf306050>>, mixin_verb=('build',))
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.204s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/goblue/my_ws'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'bot_description' with type 'ros.ament_python' and name 'bot_description'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(yuBot_cartographer) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'yuBot_cartographer' with type 'ros.ament_cmake' and name 'yuBot_cartographer'
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.245s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/goblue/my_ws/install
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 27 installed packages in /home/goblue/interbotix_ws/install
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/goblue/ros2_ws/install
+[0.248s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 398 installed packages in /opt/ros/humble
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/goblue/my_ws/build/bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/goblue/my_ws/install/bot_description', 'merge_install': False, 'path': '/home/goblue/my_ws/bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'yuBot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'yuBot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/goblue/my_ws/build/yuBot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/goblue/my_ws/install/yuBot_cartographer', 'merge_install': False, 'path': '/home/goblue/my_ws/yuBot_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.287s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/goblue/my_ws/bot_description' with build type 'ament_python'
+[0.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'ament_prefix_path')
+[0.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/bot_description/share/bot_description/hook/ament_prefix_path.ps1'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/goblue/my_ws/install/bot_description/share/bot_description/hook/ament_prefix_path.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/bot_description/share/bot_description/hook/ament_prefix_path.sh'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/goblue/my_ws/yuBot_cartographer' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/goblue/my_ws/yuBot_cartographer'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/goblue/my_ws/bot_description'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/goblue/my_ws/build/yuBot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/my_ws/install/bot_description:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/build/yuBot_cartographer -- -j20 -l20
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/goblue/my_ws/build/yuBot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/my_ws/install/bot_description:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/build/yuBot_cartographer -- -j20 -l20
+[0.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/goblue/my_ws/build/yuBot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/my_ws/install/bot_description:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/build/yuBot_cartographer
+[0.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yuBot_cartographer)
+[0.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/goblue/my_ws/build/yuBot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/my_ws/install/bot_description:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/build/yuBot_cartographer
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer' for CMake config files
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('yuBot_cartographer', 'cmake_prefix_path')
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/hook/cmake_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/hook/cmake_prefix_path.sh'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/bin'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/lib/pkgconfig/yuBot_cartographer.pc'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/lib/python3.10/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/bin'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.sh'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.bash'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.zsh'
+[0.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/goblue/my_ws/install/yuBot_cartographer/share/colcon-core/packages/yuBot_cartographer)
+[0.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yuBot_cartographer)
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer' for CMake module files
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer' for CMake config files
+[0.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('yuBot_cartographer', 'cmake_prefix_path')
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/hook/cmake_prefix_path.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/hook/cmake_prefix_path.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/hook/cmake_prefix_path.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/lib/pkgconfig/yuBot_cartographer.pc'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/lib/python3.10/site-packages'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/yuBot_cartographer/bin'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.dsv'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.bash'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/yuBot_cartographer/share/yuBot_cartographer/package.zsh'
+[0.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/goblue/my_ws/install/yuBot_cartographer/share/colcon-core/packages/yuBot_cartographer)
+[0.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/goblue/my_ws/bot_description': PYTHONPATH=/home/goblue/my_ws/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bot_description build --build-base /home/goblue/my_ws/build/bot_description/build install --record /home/goblue/my_ws/build/bot_description/install.log --single-version-externally-managed install_data
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description' for CMake module files
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/goblue/my_ws/bot_description' returned '0': PYTHONPATH=/home/goblue/my_ws/build/bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bot_description build --build-base /home/goblue/my_ws/build/bot_description/build install --record /home/goblue/my_ws/build/bot_description/install.log --single-version-externally-managed install_data
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description' for CMake config files
+[1.021s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description/lib'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description/bin'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description/lib/pkgconfig/bot_description.pc'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages'
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'pythonpath')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/bot_description/share/bot_description/hook/pythonpath.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/goblue/my_ws/install/bot_description/share/bot_description/hook/pythonpath.dsv'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/goblue/my_ws/install/bot_description/share/bot_description/hook/pythonpath.sh'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/goblue/my_ws/install/bot_description/bin'
+[1.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_description)
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/bot_description/share/bot_description/package.ps1'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/goblue/my_ws/install/bot_description/share/bot_description/package.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/bot_description/share/bot_description/package.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/bot_description/share/bot_description/package.bash'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/goblue/my_ws/install/bot_description/share/bot_description/package.zsh'
+[1.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/goblue/my_ws/install/bot_description/share/colcon-core/packages/bot_description)
+[1.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.025s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.030s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.037s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.038s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/goblue/my_ws/install/local_setup.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/goblue/my_ws/install/_local_setup_util_ps1.py'
+[1.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/goblue/my_ws/install/setup.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/goblue/my_ws/install/local_setup.sh'
+[1.041s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/goblue/my_ws/install/_local_setup_util_sh.py'
+[1.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/goblue/my_ws/install/setup.sh'
+[1.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/goblue/my_ws/install/local_setup.bash'
+[1.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/goblue/my_ws/install/setup.bash'
+[1.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/goblue/my_ws/install/local_setup.zsh'
+[1.045s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/goblue/my_ws/install/setup.zsh'

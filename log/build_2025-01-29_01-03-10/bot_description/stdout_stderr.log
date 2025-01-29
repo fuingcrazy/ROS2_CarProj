@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/bot_description/bot_description.egg-info/PKG-INFO
+writing dependency_links to ../build/bot_description/bot_description.egg-info/dependency_links.txt
+writing entry points to ../build/bot_description/bot_description.egg-info/entry_points.txt
+writing requirements to ../build/bot_description/bot_description.egg-info/requires.txt
+writing top-level names to ../build/bot_description/bot_description.egg-info/top_level.txt
+reading manifest file '../build/bot_description/bot_description.egg-info/SOURCES.txt'
+writing manifest file '../build/bot_description/bot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/gazebo_display.launch.py -> /home/goblue/my_ws/install/bot_description/share/bot_description/launch
+copying urdf/bot_base.urdf -> /home/goblue/my_ws/install/bot_description/share/bot_description/urdf
+copying urdf/yuBot_gazebo_core.xacro -> /home/goblue/my_ws/install/bot_description/share/bot_description/urdf
+copying urdf/yuBot_sim.xacro -> /home/goblue/my_ws/install/bot_description/share/bot_description/urdf
+copying urdf/yuBot_base.xacro -> /home/goblue/my_ws/install/bot_description/share/bot_description/urdf
+running install_egg_info
+Copying ../build/bot_description/bot_description.egg-info to /home/goblue/my_ws/install/bot_description/lib/python3.10/site-packages/bot_description-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rotate_wheels script to /home/goblue/my_ws/install/bot_description/lib/bot_description
+writing list of installed files to '/home/goblue/my_ws/build/bot_description/install.log'
