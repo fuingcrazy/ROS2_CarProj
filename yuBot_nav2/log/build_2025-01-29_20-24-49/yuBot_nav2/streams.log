@@ -1,0 +1,45 @@
+[0.015s] Invoking command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2': /usr/bin/cmake /home/goblue/my_ws/yuBot_nav2 -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2
+[0.315s] -- The C compiler identification is GNU 11.4.0
+[0.908s] -- The CXX compiler identification is GNU 11.4.0
+[1.326s] -- Detecting C compiler ABI info
+[1.471s] -- Detecting C compiler ABI info - done
+[1.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.477s] -- Detecting C compile features
+[1.477s] -- Detecting C compile features - done
+[1.480s] -- Detecting CXX compiler ABI info
+[1.630s] -- Detecting CXX compiler ABI info - done
+[1.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.635s] -- Detecting CXX compile features
+[1.635s] -- Detecting CXX compile features - done
+[1.659s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.757s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.849s] -- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)
+[1.851s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.884s] Error parsing '/home/goblue/my_ws/yuBot_nav2/package.xml':
+[1.936s] Traceback (most recent call last):
+[1.936s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.937s]     main()
+[1.937s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.937s]     raise e
+[1.937s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.937s]     package = parse_package_string(
+[1.937s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.937s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.937s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/goblue/my_ws/yuBot_nav2/package.xml':
+[1.937s] Error(s):
+[1.937s] - The generic dependency on 'nav2_bringup' is redundant with: exec_depend
+[1.947s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.947s]   execute_process(/usr/bin/python3
+[1.947s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.947s]   /home/goblue/my_ws/yuBot_nav2/package.xml
+[1.947s]   /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2/ament_cmake_core/package.cmake)
+[1.947s]   returned error code 1
+[1.947s] Call Stack (most recent call first):
+[1.947s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.948s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.948s]   CMakeLists.txt:21 (ament_lint_auto_find_test_dependencies)
+[1.948s] 
+[1.948s] [0m
+[1.948s] -- Configuring incomplete, errors occurred!
+[1.948s] See also "/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2/CMakeFiles/CMakeOutput.log".
+[1.950s] Invoked command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2' returned '1': /usr/bin/cmake /home/goblue/my_ws/yuBot_nav2 -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2

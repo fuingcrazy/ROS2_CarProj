@@ -1,0 +1,73 @@
+[0.281s] Invoking command in '/home/goblue/my_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/goblue/my_ws/install/nav2_msgs:/home/goblue/my_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/goblue/my_ws/install/nav2_msgs:/home/goblue/my_ws/install/nav2_common:/home/goblue/my_ws/install/yuBot_cartographer:/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/home/goblue/my_ws/install/bot_description:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble LD_LIBRARY_PATH=/home/goblue/my_ws/install/nav2_msgs/lib:/home/goblue/interbotix_ws/install/moveit_visual_tools/lib:/home/goblue/interbotix_ws/install/interbotix_xs_rviz/lib:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/lib:/home/goblue/interbotix_ws/install/interbotix_xs_driver/lib:/home/goblue/interbotix_ws/install/interbotix_tf_tools/lib:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/goblue/my_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/goblue/my_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/goblue/my_ws/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/install/nav2_util
+[0.466s] -- The C compiler identification is GNU 11.4.0
+[1.297s] -- The CXX compiler identification is GNU 11.4.0
+[1.722s] -- Detecting C compiler ABI info
+[1.848s] -- Detecting C compiler ABI info - done
+[1.852s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.853s] -- Detecting C compile features
+[1.853s] -- Detecting C compile features - done
+[1.855s] -- Detecting CXX compiler ABI info
+[1.984s] -- Detecting CXX compiler ABI info - done
+[1.989s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.989s] -- Detecting CXX compile features
+[1.989s] -- Detecting CXX compile features - done
+[1.992s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.093s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.165s] -- Found nav2_common: 1.1.17 (/home/goblue/my_ws/install/nav2_common/share/nav2_common/cmake)
+[2.165s] -- Found nav2_msgs: 1.1.17 (/home/goblue/my_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.344s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.349s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.357s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.381s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.471s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.542s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.545s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.261s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.450s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.042s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.051s] -- Looking for pthread.h
+[10.240s] -- Looking for pthread.h - found
+[10.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.454s] -- Found Threads: TRUE  
+[10.535s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[10.659s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.660s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.660s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.665s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[10.678s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.692s] -- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)
+[10.715s] -- Setting build type to Release as none was specified.
+[10.742s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[10.745s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.747s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[10.750s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[10.752s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.977s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.575s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.575s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.575s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.575s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.589s] -- Found PythonExtra: .so  
+[17.659s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[19.477s] [31mCMake Error at test/CMakeLists.txt:7 (find_package):
+[19.478s]   By not providing "Findtest_msgs.cmake" in CMAKE_MODULE_PATH this project
+[19.478s]   has asked CMake to find a package configuration file provided by
+[19.478s]   "test_msgs", but CMake did not find one.
+[19.478s] 
+[19.478s]   Could not find a package configuration file provided by "test_msgs" with
+[19.478s]   any of the following names:
+[19.478s] 
+[19.478s]     test_msgsConfig.cmake
+[19.478s]     test_msgs-config.cmake
+[19.478s] 
+[19.478s]   Add the installation prefix of "test_msgs" to CMAKE_PREFIX_PATH or set
+[19.478s]   "test_msgs_DIR" to a directory containing one of the above files.  If
+[19.479s]   "test_msgs" provides a separate development package or SDK, be sure it has
+[19.479s]   been installed.
+[19.479s] 
+[19.479s] [0m
+[19.479s] -- Configuring incomplete, errors occurred!
+[19.479s] See also "/home/goblue/my_ws/build/nav2_util/CMakeFiles/CMakeOutput.log".
+[19.487s] Invoked command in '/home/goblue/my_ws/build/nav2_util' returned '1': AMENT_PREFIX_PATH=/home/goblue/my_ws/install/nav2_msgs:/home/goblue/my_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/goblue/my_ws/install/nav2_msgs:/home/goblue/my_ws/install/nav2_common:/home/goblue/my_ws/install/yuBot_cartographer:/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/home/goblue/my_ws/install/bot_description:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble LD_LIBRARY_PATH=/home/goblue/my_ws/install/nav2_msgs/lib:/home/goblue/interbotix_ws/install/moveit_visual_tools/lib:/home/goblue/interbotix_ws/install/interbotix_xs_rviz/lib:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/lib:/home/goblue/interbotix_ws/install/interbotix_xs_driver/lib:/home/goblue/interbotix_ws/install/interbotix_tf_tools/lib:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/goblue/my_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/goblue/my_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/goblue/my_ws/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/install/nav2_util

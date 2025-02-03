@@ -1,0 +1,2 @@
+Invoking command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2': /usr/bin/cmake /home/goblue/my_ws/yuBot_nav2 -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2
+Invoked command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2' returned '1': /usr/bin/cmake /home/goblue/my_ws/yuBot_nav2 -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2

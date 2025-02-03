@@ -1,0 +1,58 @@
+[0.008s] Invoking command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/yuBot_nav2 -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.978s] -- The CXX compiler identification is GNU 11.4.0
+[1.396s] -- Detecting C compiler ABI info
+[1.533s] -- Detecting C compiler ABI info - done
+[1.538s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.539s] -- Detecting C compile features
+[1.539s] -- Detecting C compile features - done
+[1.540s] -- Detecting CXX compiler ABI info
+[1.677s] -- Detecting CXX compiler ABI info - done
+[1.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.682s] -- Detecting CXX compile features
+[1.682s] -- Detecting CXX compile features - done
+[1.685s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.851s] -- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)
+[1.853s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.886s] WARNING: Package name "yuBot_nav2" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.910s] -- Configured cppcheck include dirs: 
+[1.910s] -- Configured cppcheck exclude dirs and/or files: 
+[1.910s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.911s] -- Added test 'lint_cmake' to check CMake code style
+[1.912s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.915s] -- Added test 'uncrustify' to check C / C++ code style
+[1.915s] -- Configured uncrustify additional arguments: 
+[1.916s] -- Added test 'xmllint' to check XML markup files
+[1.918s] -- Configuring done
+[1.921s] -- Generating done
+[1.921s] -- Build files have been written to: /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2
+[1.924s] Invoked command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/yuBot_nav2 -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2
+[1.925s] Invoking command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2 -- -j20 -l20
+[1.947s] Invoked command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2 -- -j20 -l20
+[1.964s] Invoking command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2
+[1.968s] -- Install configuration: ""
+[1.968s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/launch
+[1.968s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/launch/yuBot_nav2.launch.py
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/param
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/param/yuBot_nav2.yaml
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/maps
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/maps/firstMap.pgm
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/maps/firstMap.yaml
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/ament_index/resource_index/package_run_dependencies/yuBot_nav2
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/ament_index/resource_index/parent_prefix_path/yuBot_nav2
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/ament_prefix_path.sh
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/ament_prefix_path.dsv
+[1.969s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/path.sh
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/path.dsv
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.bash
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.sh
+[1.969s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.zsh
+[1.970s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.dsv
+[1.970s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/package.dsv
+[1.970s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/ament_index/resource_index/packages/yuBot_nav2
+[1.970s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/cmake/yuBot_nav2Config.cmake
+[1.970s] -- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/cmake/yuBot_nav2Config-version.cmake
+[1.970s] -- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/package.xml
+[1.971s] Invoked command in '/home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/ros2_ws/install/rse_gaussian_filters:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2

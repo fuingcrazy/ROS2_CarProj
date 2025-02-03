@@ -10,6 +10,9 @@
 /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/urdf/yuBot_gazebo_core.xacro
 /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/urdf/yuBot_sim.xacro
 /home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/urdf/yuBot_base.xacro
+/home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/worlds/emptyw
+/home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/worlds/house.world
+/home/goblue/my_ws/bot_description/install/bot_description/share/bot_description/worlds/empty.world
 /home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages/bot_description-0.0.0-py3.10.egg-info/top_level.txt
 /home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages/bot_description-0.0.0-py3.10.egg-info/zip-safe
 /home/goblue/my_ws/bot_description/install/bot_description/lib/python3.10/site-packages/bot_description-0.0.0-py3.10.egg-info/requires.txt

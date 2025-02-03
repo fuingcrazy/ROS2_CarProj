@@ -1,0 +1,38 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/goblue/my_ws/yuBot_nav2/build/yuBot_nav2
+-- Install configuration: ""
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/launch
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/launch/yuBot_nav2.launch.py
+-- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/params
+-- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/params/yuBot_nav2.yaml
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/maps
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/maps/firstMap.pgm
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/maps/firstMap.yaml
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/ament_index/resource_index/package_run_dependencies/yuBot_nav2
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/ament_index/resource_index/parent_prefix_path/yuBot_nav2
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/ament_prefix_path.sh
+-- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/path.sh
+-- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/environment/path.dsv
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.bash
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.sh
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.zsh
+-- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/local_setup.dsv
+-- Installing: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/package.dsv
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/ament_index/resource_index/packages/yuBot_nav2
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/cmake/yuBot_nav2Config.cmake
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/cmake/yuBot_nav2Config-version.cmake
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/package.xml

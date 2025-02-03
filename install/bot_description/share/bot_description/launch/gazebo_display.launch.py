@@ -21,7 +21,7 @@ def generate_launch_description():
         get_package_share_directory("bot_description"), "urdf", "yuBot_sim.xacro"
     )
     gazebo_world_path = os.path.join(
-        get_package_share_directory("bot_description"), "worlds", "house.world"
+        get_package_share_directory("bot_description"), "worlds", "cafe.world"
     )
 
     robot_state_publisher_node = Node(

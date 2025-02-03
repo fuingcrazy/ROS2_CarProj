@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/launch
+-- Up-to-date: /home/goblue/my_ws/yuBot_nav2/install/yuBot_nav2/share/yuBot_nav2/launch/yuBot_nav2.launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/goblue/my_ws/yuBot_nav2/param": No such
+  file or directory.
+
+[0m

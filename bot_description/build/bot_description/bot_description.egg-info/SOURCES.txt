@@ -20,3 +20,6 @@ urdf/bot_base.urdf
 urdf/yuBot_base.xacro
 urdf/yuBot_gazebo_core.xacro
 urdf/yuBot_sim.xacro
+worlds/empty.world
+worlds/emptyw
+worlds/house.world
