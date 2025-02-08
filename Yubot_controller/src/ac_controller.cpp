@@ -10,9 +10,9 @@ namespace ac_controller
     {
         RCLCPP_INFO(logger_, "Configuring controller");
         auto node = parent.lock();      //returns a sharedptr if parent exists
-        node->get_parameter("max_speed",6);
-        node->get_parameter("lookahead_dist",1.0);
-        node->get_parameter("wheelbase",0.54);
+        node->get_parameter_or("max_speed",max_speed_,6);
+        node->get_parameter("lookahead_dist",lookahead_dist_,1.0);
+        node->get_parameter("wheelbase",wheelbase_,0.54);
         tf_  = tf;
         costmap_ros_ = costmap_ros;
         name_ = name;
@@ -40,6 +40,10 @@ namespace ac_controller
   (void)speed_limit;
   (void)percentage;
 }
+void PurePursuitController::setPlan(const nav_msgs::msg::Path &path) {    //get global plan
+  global_pub_->publish(path);
+  global_plan_ = path;
+}
 
  geometry_msgs::msg::TwistStamped computeVelocityCmd(const geometry_msgs::msg::PoseStamped& pose,
                                                       const geometry_msgs::msg::Twist& velocity,
@@ -47,6 +51,16 @@ namespace ac_controller
     {
         (void)goal_checker;
         (void)velocity;
+        geometry_msgs::msg::PoseStamped cmd_vel;
+        cmd_vel.header.stamp = rclcpp.Clock().now();
+        cmd_vel.frame_id = pose.header.frame_id;
+        if(global_plan_.poses.empty()){
+            RCLCPP_INFO(logger_,"No Path Received!");
+            return cmd_vel;
+        }
+        auto transformed_plan = transformGlobalPlan(pose);    //transform global plan to local robot frame
+        RCLCPP_INFO(logger_,"Local Plan generated, lenth: %d.",transformed_plan.poses.size());
+        auto goal_it = std::find_if(transformed_plan.poses.begin(),transformed_plan.poses.end(),[&](const auto& ps){return hypot(ps.pose.position.x,ps.pose.position.y)>=lookahead_dist_; });
         
     }
 }
