@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:73 (file):
+  file INSTALL cannot find
+  "/home/goblue/my_ws/yubot_purepursuit_controller/maps": No such file or
+  directory.
+
+[0m

@@ -1,0 +1,178 @@
+In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:20:80:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K,[m[K’ token
+   20 |         void configure(const rclcpp_lifecycle::LifecycleNode::WeakPtr & parent,[01;31m[K,[m[Kstd::string name,
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ in namespace ‘[01m[Knav2_msgs::msg[m[K’ does not name a type
+   33 |         nav2_msgs::msg::[01;31m[KPath[m[K transformGlobalPlan(const geometry_msgs::msg::PoseStamped& pose);   //transform global plan into same frame as pose and clips poses
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:39:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |                            const rclcpp::Duration& [01;31m[Ktransform_tolerance[m[K) const;
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:39:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:39:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:35:34:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   35 |         bool transformPose(const [01;31m[Kstd[m[K::shared_ptr<tf2_ros::Buffer tf,
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:35:66:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ktf[m[K’
+   35 |         bool transformPose(const std::shared_ptr<tf2_ros::Buffer [01;31m[Ktf[m[K,
+      |                                                                  [01;31m[K^~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:35:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Ktf[m[K’
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:35:28:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   35 |         bool transformPose([01;31m[Kconst[m[K std::shared_ptr<tf2_ros::Buffer tf,
+      |                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:20:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid ac_controller::Pure_controller::configure(const WeakPtr&, int, std::string, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   20 |         void [01;31m[Kconfigure[m[K(const rclcpp_lifecycle::LifecycleNode::WeakPtr & parent,,std::string name,
+      |              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:28:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::msg::TwistStamped ac_controller::Pure_controller::computeVelocityCmd(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   28 |         geometry_msgs::msg::TwistStamped [01;31m[KcomputeVelocityCmd[m[K(const geometry_msgs::msg::PoseStamped& pose, const geometry_msgs::msg::Twist& velocity, nav2_core::GoalChecker* goal_checker) override;
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:8:74:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K,[m[K’ token
+    8 |   void configure(const rclcpp_lifecycle::LifecycleNode::WeakPtr & parent,[01;31m[K,[m[Kstd::string name,
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:46[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:42[m[K,
+                 from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+                 from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:[m[K In function ‘[01m[Kvoid ac_controller::configure(const WeakPtr&, int, std::string, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:12:21:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+   12 |         RCLCPP_INFO([01;31m[Klogger_[m[K, "Configuring controller");
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "Configuring controller");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "Configuring controller");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:12:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |         [01;31m[KRCLCPP_INFO[m[K(logger_, "Configuring controller");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+   13 |         [01;31m[Knode_[m[K = parent
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kmode_t[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:15:43:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   15 |         declare_parameter_if_not_declared([01;31m[Knode[m[K, plugin_name_ + ".lookahead_dist",
+      |                                           [01;31m[K^~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:15:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kplugin_name_[m[K’ was not declared in this scope
+   15 |         declare_parameter_if_not_declared(node, [01;31m[Kplugin_name_[m[K + ".lookahead_dist",
+      |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter_if_not_declared[m[K’ was not declared in this scope
+   15 |         [01;31m[Kdeclare_parameter_if_not_declared[m[K(node, plugin_name_ + ".lookahead_dist",
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdesired_linear_vel_[m[K’ was not declared in this scope
+   23 |                 [01;31m[Kdesired_linear_vel_[m[K);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:24:63:[m[K [01;31m[Kerror: [m[K‘[01m[Klookahead_dist_[m[K’ was not declared in this scope
+   24 |         node->get_parameter(plugin_name_ + ".lookahead_dist", [01;31m[Klookahead_dist_[m[K);
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:25:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed_[m[K’ was not declared in this scope
+   25 |         node->get_parameter(plugin_name_ + ".max_angular_vel", [01;31m[Kmax_speed_[m[K);
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:29:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheelbase_[m[K’ was not declared in this scope
+   29 |         node->get_parameter(plugin_name_ + ".wheelbase",[01;31m[Kwheelbase_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_tolerance_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransform_tolerance[m[K’?
+   31 |         [01;31m[Ktransform_tolerance_[m[K = rclcpp::Duration::from_seconds(transform_tolerance);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Ktransform_tolerance[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf[m[K’?
+   32 |         [01;31m[Ktf_[m[K  = tf;
+      |         [01;31m[K^~~[m[K
+      |         [32m[Ktf[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_ros_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcostmap_ros[m[K’?
+   33 |         [01;31m[Kcostmap_ros_[m[K = costmap_ros;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+      |         [32m[Kcostmap_ros[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+   34 |         [01;31m[Kname_[m[K = name;
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kname[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+   35 |         [01;31m[Klogger_[m[K = node->get_logger();
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclock_t[m[K’?
+   36 |         [01;31m[Kclock_[m[K = node->get_clock();
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kclock_t[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_pub_[m[K’ was not declared in this scope
+   37 |         [01;31m[Kglobal_pub_[m[K = node->create_publisher<nav_msgs::msg::Path>("received_global_plan", 1);    //create path publisher
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:37:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   37 |         global_pub_ = node->create_publisher<nav_msgs::msg::Path[01;31m[K>[m[K("received_global_plan", 1);    //create path publisher
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:37:67:[m[K [01;31m[Kerror: [m[Kleft operand of comma operator has no effect [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Werror=unused-value]8;;[m[K]
+   37 |         global_pub_ = node->create_publisher<nav_msgs::msg::Path>([01;31m[K"received_global_plan"[m[K, 1);    //create path publisher
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::TwistStamped ac_controller::Pure_controller::computeVelocityCmd(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:78:33:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformGlobalPlan[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransformed_plan[m[K’?
+   78 |         auto transformed_plan = [01;31m[KtransformGlobalPlan[m[K(pose);    //transform global plan to local robot frame
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Ktransformed_plan[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:89:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kmax_speed_[m[K’?
+   89 |             linear_vel = -[01;31m[Kmax_speed[m[K;
+      |                           [01;31m[K^~~~~~~~~[m[K
+      |                           [32m[Kmax_speed_[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:93:81:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   93 |            double curvature = (2 * goal_pose.position.y)/(goal_pose.position.y *[01;31m[K* 2[m[K + goal_pose.position.x ** 2);
+      |                                                                                 [01;31m[K^~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:93:109:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kint[m[K’)
+   93 |            double curvature = (2 * goal_pose.position.y)/(goal_pose.position.y ** 2 + goal_pose.position.x *[01;31m[K* 2[m[K);
+      |                                                                                                             [01;31m[K^~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:[m[K At global scope:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:102:25:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Knav_msgs::msg::Path ac_controller::Pure_controller::transformGlobalPlan(const PoseStamped&)[m[K’
+  102 |     nav_msgs::msg::Path [01;31m[KPure_controller[m[K::transformGlobalPlan(const geometry_msgs::msg::PoseStamped& pose){
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:102:25:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Knav_msgs::msg::Path ac_controller::Pure_controller::transformGlobalPlan(const PoseStamped&)[m[K’
+In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:15:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ac_controller::Pure_controller[m[K’ defined here
+   15 |     class [01;36m[KPure_controller[m[K : public nav2_core::Controller
+      |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:161:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  161 |         const rclcpp::Duration& [01;31m[Ktransform_tolerance[m[K) const
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:161:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:161:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:157:47:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+  157 |     bool Pure_controller::transformPose(const [01;31m[Kstd[m[K::shared_ptr<tf2_ros::Buffer tf,     //transform a global pose to local one(world to car)
+      |                                               [01;31m[K^~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:157:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool ac_controller::Pure_controller::transformPose[m[K’ is not a static data member of ‘[01m[Kclass ac_controller::Pure_controller[m[K’
+  157 |     bool [01;31m[KPure_controller[m[K::transformPose(const std::shared_ptr<tf2_ros::Buffer tf,     //transform a global pose to local one(world to car)
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:157:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+  157 |     bool Pure_controller::transformPose([01;31m[Kconst[m[K std::shared_ptr<tf2_ros::Buffer tf,     //transform a global pose to local one(world to car)
+      |                                         [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:42[m[K,
+                 from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+                 from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ac_controller::Pure_controller; B = nav2_core::Controller][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kac_controller::Pure_controller[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:15:11:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kac_controller::Pure_controller[m[K’:
+   15 |     class [01;36m[KPure_controller[m[K : public nav2_core::Controller
+      |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+                 from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav2_core/controller.hpp:75:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_core::Controller::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’
+   75 |   virtual void [01;36m[Kconfigure[m[K(
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/nav2_core/controller.hpp:114:44:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_core::Controller::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’
+  114 |   virtual geometry_msgs::msg::TwistStamped [01;36m[KcomputeVelocityCommands[m[K(
+      |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/Yubot_controller.dir/build.make:76：CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/Yubot_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

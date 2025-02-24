@@ -1,0 +1,59 @@
+[0.009s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/Yubot_controller -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/Yubot_controller/install/Yubot_controller
+[0.361s] -- The C compiler identification is GNU 11.4.0
+[1.075s] -- The CXX compiler identification is GNU 11.4.0
+[1.543s] -- Detecting C compiler ABI info
+[1.786s] -- Detecting C compiler ABI info - done
+[1.791s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.791s] -- Detecting C compile features
+[1.792s] -- Detecting C compile features - done
+[1.795s] -- Detecting CXX compiler ABI info
+[2.044s] -- Detecting CXX compiler ABI info - done
+[2.049s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.050s] -- Detecting CXX compile features
+[2.050s] -- Detecting CXX compile features - done
+[2.068s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.184s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.297s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.715s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.723s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.735s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.834s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.838s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.084s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.317s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.746s] -- Looking for pthread.h
+[10.883s] -- Looking for pthread.h - found
+[10.883s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.019s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.020s] -- Found Threads: TRUE  
+[11.084s] -- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+[11.480s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.480s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.388s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.433s] WARNING: Package name "Yubot_controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[13.470s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.470s] -- Configured cppcheck include dirs: /home/goblue/my_ws/Yubot_controller/include
+[13.470s] -- Configured cppcheck exclude dirs and/or files: 
+[13.471s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.473s] -- Added test 'lint_cmake' to check CMake code style
+[13.474s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.478s] -- Added test 'uncrustify' to check C / C++ code style
+[13.478s] -- Configured uncrustify additional arguments: 
+[13.480s] -- Added test 'xmllint' to check XML markup files
+[13.484s] -- Configuring done
+[13.578s] -- Generating done
+[13.580s] -- Build files have been written to: /home/goblue/my_ws/Yubot_controller/build/Yubot_controller
+[13.589s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/Yubot_controller -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/Yubot_controller/install/Yubot_controller
+[13.591s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20
+[13.620s] [ 50%] [32mBuilding CXX object CMakeFiles/PureController.dir/src/pure_controller.cpp.o[0m
+[13.626s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KYubot_controller/pure_controller.hpp: 没有那个文件或目录
+[13.626s]     2 | #include [01;31m[K"Yubot_controller/pure_controller.hpp"[m[K
+[13.626s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.626s] compilation terminated.
+[13.627s] gmake[2]: *** [CMakeFiles/PureController.dir/build.make:76：CMakeFiles/PureController.dir/src/pure_controller.cpp.o] 错误 1
+[13.627s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/PureController.dir/all] 错误 2
+[13.627s] gmake: *** [Makefile:146：all] 错误 2
+[13.628s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20

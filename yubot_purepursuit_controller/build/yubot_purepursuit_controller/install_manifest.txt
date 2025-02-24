@@ -1,0 +1,1 @@
+/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/package.dsv

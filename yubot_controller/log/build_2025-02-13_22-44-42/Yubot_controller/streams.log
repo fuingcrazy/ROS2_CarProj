@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o[0m
+[7.166s] [100%] [32m[1mLinking CXX shared library libYubot_controller.so[0m
+[7.633s] [100%] Built target Yubot_controller
+[7.641s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20
+[7.673s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/Yubot_controller/build/Yubot_controller
+[7.680s] -- Install configuration: "Release"
+[7.680s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/lib/libYubot_controller.so
+[7.681s] -- Set runtime path of "/home/goblue/my_ws/Yubot_controller/install/Yubot_controller/lib/libYubot_controller.so" to ""
+[7.681s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/include/
+[7.682s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/include//Yubot_controller
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/launch
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/launch/bringup.launch.py
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/params
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/params/PurePursuit.yaml
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/maps
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/maps/house.pgm
+[7.682s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/maps/house.yaml
+[7.682s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/environment/library_path.sh
+[7.683s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/environment/library_path.dsv
+[7.683s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/plugin.xml
+[7.683s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/ament_index/resource_index/package_run_dependencies/Yubot_controller
+[7.683s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/ament_index/resource_index/parent_prefix_path/Yubot_controller
+[7.683s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/environment/ament_prefix_path.sh
+[7.683s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/environment/ament_prefix_path.dsv
+[7.683s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/environment/path.sh
+[7.683s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/environment/path.dsv
+[7.683s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/local_setup.bash
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/local_setup.sh
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/local_setup.zsh
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/local_setup.dsv
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/package.dsv
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/ament_index/resource_index/packages/Yubot_controller
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/Yubot_controller
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.684s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/cmake/Yubot_controllerConfig.cmake
+[7.685s] -- Installing: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/cmake/Yubot_controllerConfig-version.cmake
+[7.685s] -- Up-to-date: /home/goblue/my_ws/Yubot_controller/install/Yubot_controller/share/Yubot_controller/package.xml
+[7.687s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/Yubot_controller/build/Yubot_controller

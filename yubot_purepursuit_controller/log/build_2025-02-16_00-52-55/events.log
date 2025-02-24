@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000412] (yubot_purepursuit_controller) JobQueued: {'identifier': 'yubot_purepursuit_controller', 'dependencies': OrderedDict()}
+[0.000485] (yubot_purepursuit_controller) JobStarted: {'identifier': 'yubot_purepursuit_controller'}
+[0.009513] (yubot_purepursuit_controller) JobProgress: {'identifier': 'yubot_purepursuit_controller', 'progress': 'cmake'}
+[0.010053] (yubot_purepursuit_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/goblue/my_ws/yubot_purepursuit_controller', '-DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller'], 'cwd': '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'goblue'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/lib:/home/goblue/interbotix_ws/install/moveit_visual_tools/lib:/home/goblue/interbotix_ws/install/interbotix_xs_rviz/lib:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/lib:/home/goblue/interbotix_ws/install/interbotix_xs_driver/lib:/home/goblue/interbotix_ws/install/interbotix_tf_tools/lib:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/goblue'), ('OLDPWD', '/home/goblue'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '172.23.207.215'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install:/home/goblue/interbotix_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'goblue'), ('NAME', 'GoBule'), ('WSL_INTEROP', '/run/WSL/6442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/your/model/path'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/goblue/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/d/VMware/bin/:/mnt/d/Downloads/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Python312/Scripts/:/mnt/d/Python312/:/mnt/c/Users/EthanYU/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/EthanYU/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Downloads/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin'), ('WT_SESSION', 'b5fa47be-e69b-4360-9e6e-b2caf7cc5b97'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '10.0.0.101:0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/goblue/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099188] (-) TimerEvent: {}
+[0.185041] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199293] (-) TimerEvent: {}
+[0.299636] (-) TimerEvent: {}
+[0.400051] (-) TimerEvent: {}
+[0.500429] (-) TimerEvent: {}
+[0.600771] (-) TimerEvent: {}
+[0.701087] (-) TimerEvent: {}
+[0.801442] (-) TimerEvent: {}
+[0.901859] (-) TimerEvent: {}
+[1.002239] (-) TimerEvent: {}
+[1.102623] (-) TimerEvent: {}
+[1.136465] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.202752] (-) TimerEvent: {}
+[1.303121] (-) TimerEvent: {}
+[1.403496] (-) TimerEvent: {}
+[1.503885] (-) TimerEvent: {}
+[1.604297] (-) TimerEvent: {}
+[1.704718] (-) TimerEvent: {}
+[1.805060] (-) TimerEvent: {}
+[1.878827] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.905172] (-) TimerEvent: {}
+[2.005493] (-) TimerEvent: {}
+[2.102683] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.105630] (-) TimerEvent: {}
+[2.109298] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.109616] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.109917] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.112582] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.205771] (-) TimerEvent: {}
+[2.306121] (-) TimerEvent: {}
+[2.342463] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.348613] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.358591] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.358653] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.362110] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.406263] (-) TimerEvent: {}
+[2.483359] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.506385] (-) TimerEvent: {}
+[2.583916] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found nav2_common: 1.1.17 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[2.586386] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[2.606551] (-) TimerEvent: {}
+[2.707051] (-) TimerEvent: {}
+[2.807713] (-) TimerEvent: {}
+[2.908114] (-) TimerEvent: {}
+[2.983742] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.990294] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.999781] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.008207] (-) TimerEvent: {}
+[3.013738] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.032625] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.091434] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.096290] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.108325] (-) TimerEvent: {}
+[3.208660] (-) TimerEvent: {}
+[3.309031] (-) TimerEvent: {}
+[3.409375] (-) TimerEvent: {}
+[3.509785] (-) TimerEvent: {}
+[3.610206] (-) TimerEvent: {}
+[3.710809] (-) TimerEvent: {}
+[3.811276] (-) TimerEvent: {}
+[3.911753] (-) TimerEvent: {}
+[4.012266] (-) TimerEvent: {}
+[4.112739] (-) TimerEvent: {}
+[4.213133] (-) TimerEvent: {}
+[4.313725] (-) TimerEvent: {}
+[4.414064] (-) TimerEvent: {}
+[4.514482] (-) TimerEvent: {}
+[4.614985] (-) TimerEvent: {}
+[4.715367] (-) TimerEvent: {}
+[4.815799] (-) TimerEvent: {}
+[4.916277] (-) TimerEvent: {}
+[5.016674] (-) TimerEvent: {}
+[5.117058] (-) TimerEvent: {}
+[5.217466] (-) TimerEvent: {}
+[5.317844] (-) TimerEvent: {}
+[5.418209] (-) TimerEvent: {}
+[5.518557] (-) TimerEvent: {}
+[5.618962] (-) TimerEvent: {}
+[5.719321] (-) TimerEvent: {}
+[5.819713] (-) TimerEvent: {}
+[5.920084] (-) TimerEvent: {}
+[6.020485] (-) TimerEvent: {}
+[6.120881] (-) TimerEvent: {}
+[6.157698] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.221020] (-) TimerEvent: {}
+[6.321451] (-) TimerEvent: {}
+[6.421843] (-) TimerEvent: {}
+[6.522230] (-) TimerEvent: {}
+[6.622610] (-) TimerEvent: {}
+[6.722964] (-) TimerEvent: {}
+[6.823292] (-) TimerEvent: {}
+[6.923688] (-) TimerEvent: {}
+[7.024085] (-) TimerEvent: {}
+[7.124478] (-) TimerEvent: {}
+[7.224856] (-) TimerEvent: {}
+[7.325230] (-) TimerEvent: {}
+[7.425622] (-) TimerEvent: {}
+[7.526207] (-) TimerEvent: {}
+[7.626595] (-) TimerEvent: {}
+[7.726966] (-) TimerEvent: {}
+[7.827343] (-) TimerEvent: {}
+[7.927790] (-) TimerEvent: {}
+[8.028144] (-) TimerEvent: {}
+[8.128527] (-) TimerEvent: {}
+[8.228980] (-) TimerEvent: {}
+[8.329467] (-) TimerEvent: {}
+[8.429909] (-) TimerEvent: {}
+[8.530351] (-) TimerEvent: {}
+[8.630778] (-) TimerEvent: {}
+[8.731215] (-) TimerEvent: {}
+[8.831621] (-) TimerEvent: {}
+[8.932068] (-) TimerEvent: {}
+[8.988237] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.032234] (-) TimerEvent: {}
+[9.132630] (-) TimerEvent: {}
+[9.233000] (-) TimerEvent: {}
+[9.333367] (-) TimerEvent: {}
+[9.433691] (-) TimerEvent: {}
+[9.534053] (-) TimerEvent: {}
+[9.634479] (-) TimerEvent: {}
+[9.734805] (-) TimerEvent: {}
+[9.835164] (-) TimerEvent: {}
+[9.935568] (-) TimerEvent: {}
+[10.035956] (-) TimerEvent: {}
+[10.136289] (-) TimerEvent: {}
+[10.236645] (-) TimerEvent: {}
+[10.336974] (-) TimerEvent: {}
+[10.437339] (-) TimerEvent: {}
+[10.537742] (-) TimerEvent: {}
+[10.638097] (-) TimerEvent: {}
+[10.738428] (-) TimerEvent: {}
+[10.838787] (-) TimerEvent: {}
+[10.939132] (-) TimerEvent: {}
+[11.039461] (-) TimerEvent: {}
+[11.139789] (-) TimerEvent: {}
+[11.240173] (-) TimerEvent: {}
+[11.340847] (-) TimerEvent: {}
+[11.441316] (-) TimerEvent: {}
+[11.541696] (-) TimerEvent: {}
+[11.642128] (-) TimerEvent: {}
+[11.742532] (-) TimerEvent: {}
+[11.842857] (-) TimerEvent: {}
+[11.943204] (-) TimerEvent: {}
+[12.043588] (-) TimerEvent: {}
+[12.144024] (-) TimerEvent: {}
+[12.244401] (-) TimerEvent: {}
+[12.344798] (-) TimerEvent: {}
+[12.445208] (-) TimerEvent: {}
+[12.545531] (-) TimerEvent: {}
+[12.645852] (-) TimerEvent: {}
+[12.746194] (-) TimerEvent: {}
+[12.846591] (-) TimerEvent: {}
+[12.947001] (-) TimerEvent: {}
+[13.047380] (-) TimerEvent: {}
+[13.147816] (-) TimerEvent: {}
+[13.248243] (-) TimerEvent: {}
+[13.348730] (-) TimerEvent: {}
+[13.449157] (-) TimerEvent: {}
+[13.549588] (-) TimerEvent: {}
+[13.649937] (-) TimerEvent: {}
+[13.750279] (-) TimerEvent: {}
+[13.850630] (-) TimerEvent: {}
+[13.951019] (-) TimerEvent: {}
+[14.051479] (-) TimerEvent: {}
+[14.151949] (-) TimerEvent: {}
+[14.252349] (-) TimerEvent: {}
+[14.352747] (-) TimerEvent: {}
+[14.453160] (-) TimerEvent: {}
+[14.553550] (-) TimerEvent: {}
+[14.653870] (-) TimerEvent: {}
+[14.754264] (-) TimerEvent: {}
+[14.854756] (-) TimerEvent: {}
+[14.955219] (-) TimerEvent: {}
+[15.055577] (-) TimerEvent: {}
+[15.079139] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.090993] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.155724] (-) TimerEvent: {}
+[15.256168] (-) TimerEvent: {}
+[15.356740] (-) TimerEvent: {}
+[15.456868] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.457122] (-) TimerEvent: {}
+[15.457252] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.557249] (-) TimerEvent: {}
+[15.657598] (-) TimerEvent: {}
+[15.757970] (-) TimerEvent: {}
+[15.827885] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[15.828872] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.858110] (-) TimerEvent: {}
+[15.958450] (-) TimerEvent: {}
+[16.058818] (-) TimerEvent: {}
+[16.159132] (-) TimerEvent: {}
+[16.212212] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[16.212447] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[16.259273] (-) TimerEvent: {}
+[16.359614] (-) TimerEvent: {}
+[16.459941] (-) TimerEvent: {}
+[16.560309] (-) TimerEvent: {}
+[16.660738] (-) TimerEvent: {}
+[16.761108] (-) TimerEvent: {}
+[16.861457] (-) TimerEvent: {}
+[16.961814] (-) TimerEvent: {}
+[17.062189] (-) TimerEvent: {}
+[17.162603] (-) TimerEvent: {}
+[17.263042] (-) TimerEvent: {}
+[17.363422] (-) TimerEvent: {}
+[17.466838] (-) TimerEvent: {}
+[17.567229] (-) TimerEvent: {}
+[17.667633] (-) TimerEvent: {}
+[17.767998] (-) TimerEvent: {}
+[17.868419] (-) TimerEvent: {}
+[17.968821] (-) TimerEvent: {}
+[18.069162] (-) TimerEvent: {}
+[18.169517] (-) TimerEvent: {}
+[18.269864] (-) TimerEvent: {}
+[18.370179] (-) TimerEvent: {}
+[18.470562] (-) TimerEvent: {}
+[18.570882] (-) TimerEvent: {}
+[18.671236] (-) TimerEvent: {}
+[18.771575] (-) TimerEvent: {}
+[18.871983] (-) TimerEvent: {}
+[18.908228] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)\n'}
+[18.908442] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[18.972153] (-) TimerEvent: {}
+[19.001592] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[19.072270] (-) TimerEvent: {}
+[19.091838] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[19.092270] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/goblue/my_ws/yubot_purepursuit_controller/include\n'}
+[19.092392] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[19.097792] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[19.097916] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[19.099385] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[19.113242] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.116751] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[19.124690] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[19.124962] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[19.127200] (yubot_purepursuit_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.130865] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.172473] (-) TimerEvent: {}
+[19.183267] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[19.185473] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller\n'}
+[19.197115] (yubot_purepursuit_controller) CommandEnded: {'returncode': 0}
+[19.199173] (yubot_purepursuit_controller) JobProgress: {'identifier': 'yubot_purepursuit_controller', 'progress': 'build'}
+[19.199372] (yubot_purepursuit_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller', '--', '-j20', '-l20'], 'cwd': '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'goblue'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/lib:/home/goblue/interbotix_ws/install/moveit_visual_tools/lib:/home/goblue/interbotix_ws/install/interbotix_xs_rviz/lib:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/lib:/home/goblue/interbotix_ws/install/interbotix_xs_driver/lib:/home/goblue/interbotix_ws/install/interbotix_tf_tools/lib:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/goblue'), ('OLDPWD', '/home/goblue'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '172.23.207.215'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install:/home/goblue/interbotix_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'goblue'), ('NAME', 'GoBule'), ('WSL_INTEROP', '/run/WSL/6442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/your/model/path'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/goblue/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/d/VMware/bin/:/mnt/d/Downloads/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Python312/Scripts/:/mnt/d/Python312/:/mnt/c/Users/EthanYU/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/EthanYU/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Downloads/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin'), ('WT_SESSION', 'b5fa47be-e69b-4360-9e6e-b2caf7cc5b97'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '10.0.0.101:0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/goblue/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[19.249204] (yubot_purepursuit_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yubot_purepursuit_controller.dir/src/pure_controller.cpp.o\x1b[0m\n'}
+[19.272615] (-) TimerEvent: {}
+[19.372996] (-) TimerEvent: {}
+[19.473377] (-) TimerEvent: {}
+[19.573771] (-) TimerEvent: {}
+[19.674363] (-) TimerEvent: {}
+[19.774750] (-) TimerEvent: {}
+[19.875118] (-) TimerEvent: {}
+[19.975587] (-) TimerEvent: {}
+[20.075952] (-) TimerEvent: {}
+[20.176333] (-) TimerEvent: {}
+[20.276703] (-) TimerEvent: {}
+[20.377076] (-) TimerEvent: {}
+[20.477450] (-) TimerEvent: {}
+[20.577900] (-) TimerEvent: {}
+[20.678277] (-) TimerEvent: {}
+[20.778721] (-) TimerEvent: {}
+[20.879297] (-) TimerEvent: {}
+[20.979878] (-) TimerEvent: {}
+[21.080243] (-) TimerEvent: {}
+[21.180690] (-) TimerEvent: {}
+[21.281020] (-) TimerEvent: {}
+[21.381391] (-) TimerEvent: {}
+[21.481803] (-) TimerEvent: {}
+[21.582126] (-) TimerEvent: {}
+[21.682464] (-) TimerEvent: {}
+[21.782822] (-) TimerEvent: {}
+[21.883181] (-) TimerEvent: {}
+[21.983605] (-) TimerEvent: {}
+[22.084036] (-) TimerEvent: {}
+[22.184514] (-) TimerEvent: {}
+[22.284917] (-) TimerEvent: {}
+[22.385242] (-) TimerEvent: {}
+[22.485722] (-) TimerEvent: {}
+[22.586084] (-) TimerEvent: {}
+[22.686420] (-) TimerEvent: {}
+[22.786748] (-) TimerEvent: {}
+[22.887112] (-) TimerEvent: {}
+[22.987511] (-) TimerEvent: {}
+[23.087988] (-) TimerEvent: {}
+[23.188612] (-) TimerEvent: {}
+[23.288978] (-) TimerEvent: {}
+[23.389422] (-) TimerEvent: {}
+[23.489792] (-) TimerEvent: {}
+[23.590267] (-) TimerEvent: {}
+[23.690641] (-) TimerEvent: {}
+[23.791020] (-) TimerEvent: {}
+[23.891389] (-) TimerEvent: {}
+[23.991751] (-) TimerEvent: {}
+[24.092102] (-) TimerEvent: {}
+[24.192471] (-) TimerEvent: {}
+[24.292894] (-) TimerEvent: {}
+[24.393425] (-) TimerEvent: {}
+[24.493765] (-) TimerEvent: {}
+[24.594219] (-) TimerEvent: {}
+[24.694668] (-) TimerEvent: {}
+[24.795028] (-) TimerEvent: {}
+[24.895354] (-) TimerEvent: {}
+[24.995725] (-) TimerEvent: {}
+[25.096132] (-) TimerEvent: {}
+[25.196474] (-) TimerEvent: {}
+[25.296807] (-) TimerEvent: {}
+[25.397135] (-) TimerEvent: {}
+[25.497485] (-) TimerEvent: {}
+[25.597888] (-) TimerEvent: {}
+[25.698330] (-) TimerEvent: {}
+[25.798726] (-) TimerEvent: {}
+[25.899101] (-) TimerEvent: {}
+[25.999542] (-) TimerEvent: {}
+[26.099916] (-) TimerEvent: {}
+[26.200293] (-) TimerEvent: {}
+[26.300697] (-) TimerEvent: {}
+[26.401065] (-) TimerEvent: {}
+[26.501449] (-) TimerEvent: {}
+[26.601972] (-) TimerEvent: {}
+[26.702374] (-) TimerEvent: {}
+[26.802729] (-) TimerEvent: {}
+[26.903203] (-) TimerEvent: {}
+[27.003542] (-) TimerEvent: {}
+[27.103954] (-) TimerEvent: {}
+[27.204400] (-) TimerEvent: {}
+[27.283639] (yubot_purepursuit_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libyubot_purepursuit_controller.so\x1b[0m\n'}
+[27.304524] (-) TimerEvent: {}
+[27.404994] (-) TimerEvent: {}
+[27.505454] (-) TimerEvent: {}
+[27.605872] (-) TimerEvent: {}
+[27.706207] (-) TimerEvent: {}
+[27.713191] (yubot_purepursuit_controller) StdoutLine: {'line': b'[100%] Built target yubot_purepursuit_controller\n'}
+[27.722231] (yubot_purepursuit_controller) CommandEnded: {'returncode': 0}
+[27.743906] (yubot_purepursuit_controller) JobProgress: {'identifier': 'yubot_purepursuit_controller', 'progress': 'install'}
+[27.750152] (yubot_purepursuit_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller'], 'cwd': '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'goblue'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/lib:/home/goblue/interbotix_ws/install/moveit_visual_tools/lib:/home/goblue/interbotix_ws/install/interbotix_xs_rviz/lib:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/lib:/home/goblue/interbotix_ws/install/interbotix_xs_driver/lib:/home/goblue/interbotix_ws/install/interbotix_tf_tools/lib:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/goblue'), ('OLDPWD', '/home/goblue'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '172.23.207.215'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install:/home/goblue/interbotix_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'goblue'), ('NAME', 'GoBule'), ('WSL_INTEROP', '/run/WSL/6442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/your/model/path'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/goblue/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/d/VMware/bin/:/mnt/d/Downloads/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Python312/Scripts/:/mnt/d/Python312/:/mnt/c/Users/EthanYU/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/EthanYU/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Downloads/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin'), ('WT_SESSION', 'b5fa47be-e69b-4360-9e6e-b2caf7cc5b97'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '10.0.0.101:0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/goblue/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[27.756720] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[27.757158] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/include/\n'}
+[27.757310] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/include//yubot_purepursuit_controller\n'}
+[27.757500] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/launch\n'}
+[27.757765] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/params\n'}
+[27.757865] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/map\n'}
+[27.757923] (yubot_purepursuit_controller) StdoutLine: {'line': b'-- Installing: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/package.dsv\n'}
+[27.759272] (yubot_purepursuit_controller) CommandEnded: {'returncode': 0}
+[27.795893] (yubot_purepursuit_controller) JobEnded: {'identifier': 'yubot_purepursuit_controller', 'rc': 0}
+[27.797029] (-) EventReactorShutdown: {}

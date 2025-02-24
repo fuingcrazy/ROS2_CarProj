@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target Yubot_controller[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o[0m
+[2.714s] In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:8[m[K:
+[2.714s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:81:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.714s]    81 |   double [01;31m[Kwheelbase_[m[K
+[2.714s]       |          [01;31m[K^~~~~~~~~~[m[K
+[2.714s]       |                    [32m[K;[m[K
+[4.113s] gmake[2]: *** [CMakeFiles/Yubot_controller.dir/build.make:76：CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o] 错误 1
+[4.114s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/Yubot_controller.dir/all] 错误 2
+[4.114s] gmake: *** [Makefile:146：all] 错误 2
+[4.115s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20

@@ -1,0 +1,66 @@
+[0.013s] Invoking command in '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/yubot_purepursuit_controller -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[1.136s] -- The CXX compiler identification is GNU 11.4.0
+[1.878s] -- Detecting C compiler ABI info
+[2.102s] -- Detecting C compiler ABI info - done
+[2.109s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.109s] -- Detecting C compile features
+[2.109s] -- Detecting C compile features - done
+[2.112s] -- Detecting CXX compiler ABI info
+[2.342s] -- Detecting CXX compiler ABI info - done
+[2.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.358s] -- Detecting CXX compile features
+[2.358s] -- Detecting CXX compile features - done
+[2.362s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.483s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.584s] -- Found nav2_common: 1.1.17 (/opt/ros/humble/share/nav2_common/cmake)
+[2.586s] -- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+[2.983s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.990s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.999s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.091s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.096s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.157s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.988s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.079s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.091s] -- Looking for pthread.h
+[15.457s] -- Looking for pthread.h - found
+[15.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.828s] -- Found Threads: TRUE  
+[16.212s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[16.212s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.908s] -- Found nav2_bringup: 1.1.17 (/opt/ros/humble/share/nav2_bringup/cmake)
+[18.908s] -- Setting build type to Release as none was specified.
+[19.001s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.091s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.092s] -- Configured cppcheck include dirs: /home/goblue/my_ws/yubot_purepursuit_controller/include
+[19.092s] -- Configured cppcheck exclude dirs and/or files: 
+[19.097s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.097s] -- Configured cpplint exclude dirs and/or files: 
+[19.099s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.113s] -- Added test 'lint_cmake' to check CMake code style
+[19.116s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.124s] -- Added test 'uncrustify' to check C / C++ code style
+[19.125s] -- Configured uncrustify additional arguments: 
+[19.127s] -- Added test 'xmllint' to check XML markup files
+[19.130s] -- Configuring done
+[19.183s] -- Generating done
+[19.185s] -- Build files have been written to: /home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller
+[19.197s] Invoked command in '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/yubot_purepursuit_controller -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller
+[19.199s] Invoking command in '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller -- -j20 -l20
+[19.249s] [ 50%] [32mBuilding CXX object CMakeFiles/yubot_purepursuit_controller.dir/src/pure_controller.cpp.o[0m
+[27.283s] [100%] [32m[1mLinking CXX shared library libyubot_purepursuit_controller.so[0m
+[27.713s] [100%] Built target yubot_purepursuit_controller
+[27.723s] Invoked command in '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller -- -j20 -l20
+[27.751s] Invoking command in '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller
+[27.756s] -- Install configuration: "Release"
+[27.757s] -- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/include/
+[27.757s] -- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/include//yubot_purepursuit_controller
+[27.757s] -- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/launch
+[27.757s] -- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/params
+[27.757s] -- Up-to-date: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/map
+[27.757s] -- Installing: /home/goblue/my_ws/yubot_purepursuit_controller/install/yubot_purepursuit_controller/share/yubot_purepursuit_controller/package.dsv
+[27.759s] Invoked command in '/home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/goblue/my_ws/yubot_purepursuit_controller/build/yubot_purepursuit_controller

@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.001281] (Yubot_controller) JobQueued: {'identifier': 'Yubot_controller', 'dependencies': OrderedDict()}
+[0.001356] (Yubot_controller) JobStarted: {'identifier': 'Yubot_controller'}
+[0.010310] (Yubot_controller) JobProgress: {'identifier': 'Yubot_controller', 'progress': 'cmake'}
+[0.010743] (Yubot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/goblue/my_ws/Yubot_controller', '-DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/Yubot_controller/install/Yubot_controller'], 'cwd': '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'goblue'), ('GIT_ASKPASS', '/home/goblue/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/goblue/interbotix_ws/install/moveit_visual_tools/lib:/home/goblue/interbotix_ws/install/interbotix_xs_rviz/lib:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/lib:/home/goblue/interbotix_ws/install/interbotix_xs_driver/lib:/home/goblue/interbotix_ws/install/interbotix_tf_tools/lib:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/goblue'), ('OLDPWD', '/home/goblue/my_ws'), ('TERM_PROGRAM_VERSION', '1.97.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f16ae8e2-a112-4380-ae0f-71f3b5de257b.sock'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/goblue/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/goblue/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/node'), ('ROS_IP', '172.23.207.215'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/goblue/interbotix_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'goblue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/505_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/your/model/path'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/goblue/.vscode-server/bin/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/bin/remote-cli:/home/goblue/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/d/VMware/bin/:/mnt/d/Downloads/OpenCV/opencv/build/x64/vc16/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Matlab R2020a/runtime/win64:/mnt/d/Matlab R2020a/bin:/mnt/d/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/Python312/Scripts/:/mnt/d/Python312/:/mnt/c/Users/EthanYU/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/EthanYU/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/Downloads/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin:/home/goblue/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('WT_SESSION', '9a503225-f8bc-4436-8ab5-e2dead96e47f'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', '10.0.0.101:0'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-64121abd6b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/interbotix_common_modules:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/goblue/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/goblue/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/goblue/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/goblue/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/goblue/interbotix_ws/install/interbotix_moveit_interface:/home/goblue/interbotix_ws/install/moveit_visual_tools:/home/goblue/interbotix_ws/install/interbotix_ros_xsarms:/home/goblue/interbotix_ws/install/interbotix_xsarm_moveit:/home/goblue/interbotix_ws/install/interbotix_xsarm_sim:/home/goblue/interbotix_ws/install/interbotix_xsarm_ros_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_puppet:/home/goblue/interbotix_ws/install/interbotix_xsarm_joy:/home/goblue/interbotix_ws/install/interbotix_xsarm_dual:/home/goblue/interbotix_ws/install/interbotix_xsarm_control:/home/goblue/interbotix_ws/install/interbotix_xsarm_descriptions:/home/goblue/interbotix_ws/install/interbotix_xs_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_rviz:/home/goblue/interbotix_ws/install/interbotix_ros_xseries:/home/goblue/interbotix_ws/install/interbotix_xs_sdk:/home/goblue/interbotix_ws/install/interbotix_xs_ros_control:/home/goblue/interbotix_ws/install/interbotix_xs_msgs:/home/goblue/interbotix_ws/install/interbotix_xs_driver:/home/goblue/interbotix_ws/install/interbotix_tf_tools:/home/goblue/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/goblue/interbotix_ws/install/interbotix_common_toolbox:/home/goblue/interbotix_ws/install/interbotix_common_sim:/home/goblue/interbotix_ws/install/dynamixel_workbench_toolbox:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099983] (-) TimerEvent: {}
+[0.200386] (-) TimerEvent: {}
+[0.300730] (-) TimerEvent: {}
+[0.387943] (Yubot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400819] (-) TimerEvent: {}
+[0.501126] (-) TimerEvent: {}
+[0.601489] (-) TimerEvent: {}
+[0.701844] (-) TimerEvent: {}
+[0.802117] (-) TimerEvent: {}
+[0.902416] (-) TimerEvent: {}
+[1.002727] (-) TimerEvent: {}
+[1.102997] (-) TimerEvent: {}
+[1.203275] (-) TimerEvent: {}
+[1.303736] (-) TimerEvent: {}
+[1.339423] (Yubot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.403836] (-) TimerEvent: {}
+[1.504114] (-) TimerEvent: {}
+[1.604399] (-) TimerEvent: {}
+[1.704671] (-) TimerEvent: {}
+[1.804932] (-) TimerEvent: {}
+[1.839191] (Yubot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.905051] (-) TimerEvent: {}
+[1.980669] (Yubot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.984810] (Yubot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.986079] (Yubot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.986916] (Yubot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.989736] (Yubot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.005200] (-) TimerEvent: {}
+[2.105549] (-) TimerEvent: {}
+[2.205989] (-) TimerEvent: {}
+[2.234981] (Yubot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.239296] (Yubot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.239443] (Yubot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.239725] (Yubot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.260529] (Yubot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.306081] (-) TimerEvent: {}
+[2.351144] (Yubot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.406193] (-) TimerEvent: {}
+[2.444608] (Yubot_controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.506306] (-) TimerEvent: {}
+[2.606630] (-) TimerEvent: {}
+[2.706897] (-) TimerEvent: {}
+[2.807197] (-) TimerEvent: {}
+[2.809426] (Yubot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.817097] (Yubot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.828552] (Yubot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.846815] (Yubot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.866804] (Yubot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.907308] (-) TimerEvent: {}
+[2.925093] (Yubot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.929894] (Yubot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.007411] (-) TimerEvent: {}
+[3.107685] (-) TimerEvent: {}
+[3.207990] (-) TimerEvent: {}
+[3.308390] (-) TimerEvent: {}
+[3.408747] (-) TimerEvent: {}
+[3.509034] (-) TimerEvent: {}
+[3.609409] (-) TimerEvent: {}
+[3.709697] (-) TimerEvent: {}
+[3.810003] (-) TimerEvent: {}
+[3.910360] (-) TimerEvent: {}
+[4.010803] (-) TimerEvent: {}
+[4.111130] (-) TimerEvent: {}
+[4.211496] (-) TimerEvent: {}
+[4.311886] (-) TimerEvent: {}
+[4.412342] (-) TimerEvent: {}
+[4.512685] (-) TimerEvent: {}
+[4.613099] (-) TimerEvent: {}
+[4.713430] (-) TimerEvent: {}
+[4.813836] (-) TimerEvent: {}
+[4.914138] (-) TimerEvent: {}
+[5.014607] (-) TimerEvent: {}
+[5.115051] (-) TimerEvent: {}
+[5.215375] (-) TimerEvent: {}
+[5.315821] (-) TimerEvent: {}
+[5.416213] (-) TimerEvent: {}
+[5.471185] (Yubot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.516315] (-) TimerEvent: {}
+[5.616585] (-) TimerEvent: {}
+[5.716857] (-) TimerEvent: {}
+[5.817240] (-) TimerEvent: {}
+[5.917554] (-) TimerEvent: {}
+[6.017891] (-) TimerEvent: {}
+[6.118183] (-) TimerEvent: {}
+[6.218512] (-) TimerEvent: {}
+[6.318835] (-) TimerEvent: {}
+[6.419156] (-) TimerEvent: {}
+[6.519421] (-) TimerEvent: {}
+[6.619694] (-) TimerEvent: {}
+[6.719997] (-) TimerEvent: {}
+[6.820289] (-) TimerEvent: {}
+[6.920557] (-) TimerEvent: {}
+[7.020828] (-) TimerEvent: {}
+[7.121128] (-) TimerEvent: {}
+[7.221511] (-) TimerEvent: {}
+[7.321913] (-) TimerEvent: {}
+[7.422320] (-) TimerEvent: {}
+[7.522644] (-) TimerEvent: {}
+[7.623038] (-) TimerEvent: {}
+[7.642040] (Yubot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.723145] (-) TimerEvent: {}
+[7.823422] (-) TimerEvent: {}
+[7.923731] (-) TimerEvent: {}
+[8.024087] (-) TimerEvent: {}
+[8.124478] (-) TimerEvent: {}
+[8.224838] (-) TimerEvent: {}
+[8.325253] (-) TimerEvent: {}
+[8.425552] (-) TimerEvent: {}
+[8.525835] (-) TimerEvent: {}
+[8.626125] (-) TimerEvent: {}
+[8.726470] (-) TimerEvent: {}
+[8.826757] (-) TimerEvent: {}
+[8.927028] (-) TimerEvent: {}
+[9.027294] (-) TimerEvent: {}
+[9.127590] (-) TimerEvent: {}
+[9.227878] (-) TimerEvent: {}
+[9.328142] (-) TimerEvent: {}
+[9.428409] (-) TimerEvent: {}
+[9.528704] (-) TimerEvent: {}
+[9.629024] (-) TimerEvent: {}
+[9.729329] (-) TimerEvent: {}
+[9.829753] (-) TimerEvent: {}
+[9.930171] (-) TimerEvent: {}
+[10.030561] (-) TimerEvent: {}
+[10.130857] (-) TimerEvent: {}
+[10.231133] (-) TimerEvent: {}
+[10.331477] (-) TimerEvent: {}
+[10.431777] (-) TimerEvent: {}
+[10.532051] (-) TimerEvent: {}
+[10.632318] (-) TimerEvent: {}
+[10.732578] (-) TimerEvent: {}
+[10.832892] (-) TimerEvent: {}
+[10.933203] (-) TimerEvent: {}
+[11.033475] (-) TimerEvent: {}
+[11.133805] (-) TimerEvent: {}
+[11.209109] (Yubot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.233908] (-) TimerEvent: {}
+[11.235851] (Yubot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.334082] (-) TimerEvent: {}
+[11.434472] (-) TimerEvent: {}
+[11.462589] (Yubot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.462851] (Yubot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.534581] (-) TimerEvent: {}
+[11.605583] (Yubot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.606321] (Yubot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.634716] (-) TimerEvent: {}
+[11.667078] (Yubot_controller) StdoutLine: {'line': b'-- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[11.734827] (-) TimerEvent: {}
+[11.835082] (-) TimerEvent: {}
+[11.935338] (-) TimerEvent: {}
+[11.992352] (Yubot_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.992525] (Yubot_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[12.035473] (-) TimerEvent: {}
+[12.135728] (-) TimerEvent: {}
+[12.236002] (-) TimerEvent: {}
+[12.336283] (-) TimerEvent: {}
+[12.436566] (-) TimerEvent: {}
+[12.536822] (-) TimerEvent: {}
+[12.637109] (-) TimerEvent: {}
+[12.737380] (-) TimerEvent: {}
+[12.837648] (-) TimerEvent: {}
+[12.937911] (-) TimerEvent: {}
+[13.038194] (-) TimerEvent: {}
+[13.138446] (-) TimerEvent: {}
+[13.238746] (-) TimerEvent: {}
+[13.339006] (-) TimerEvent: {}
+[13.439258] (-) TimerEvent: {}
+[13.539542] (-) TimerEvent: {}
+[13.639871] (-) TimerEvent: {}
+[13.740199] (-) TimerEvent: {}
+[13.840616] (-) TimerEvent: {}
+[13.941060] (-) TimerEvent: {}
+[14.041355] (-) TimerEvent: {}
+[14.139464] (Yubot_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.139604] (Yubot_controller) StdoutLine: {'line': b'See also "/home/goblue/my_ws/Yubot_controller/build/Yubot_controller/CMakeFiles/CMakeOutput.log".\n'}
+[14.139636] (Yubot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (nav2_package):\n'}
+[14.139677] (Yubot_controller) StderrLine: {'line': b'  Unknown CMake command "nav2_package".\n'}
+[14.139707] (Yubot_controller) StderrLine: {'line': b'\n'}
+[14.139734] (Yubot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[14.141577] (-) TimerEvent: {}
+[14.147316] (Yubot_controller) CommandEnded: {'returncode': 1}
+[14.166265] (Yubot_controller) JobEnded: {'identifier': 'Yubot_controller', 'rc': 1}
+[14.176700] (-) EventReactorShutdown: {}

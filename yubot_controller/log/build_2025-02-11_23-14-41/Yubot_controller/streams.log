@@ -1,0 +1,123 @@
+[0.014s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target Yubot_controller[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o[0m
+[2.559s] In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[2.560s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kggeometry_msgs[m[K’ does not name a type
+[2.560s]    28 |         [01;31m[Kggeometry_msgs[m[K::msg::TwistStamped PurePursuitController::computeVelocityCommands(
+[2.560s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.575s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:70:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid ac_controller::Pure_controller::setPlan(const Path&)[m[K’
+[2.575s]    70 | void [01;31m[KPure_controller[m[K::setPlan(const nav_msgs::msg::Path &path) {    //get global plan
+[2.575s]       |      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.575s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:70:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid ac_controller::Pure_controller::setPlan(const Path&)[m[K’
+[2.575s] In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[2.575s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:15:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ac_controller::Pure_controller[m[K’ defined here
+[2.575s]    15 |     class [01;36m[KPure_controller[m[K : public nav2_core::Controller
+[2.575s]       |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.575s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:75:34:[m[K [01;31m[Kerror: [m[K‘[01m[KPurePursuitController[m[K’ has not been declared
+[2.575s]    75 | geometry_msgs::msg::TwistStamped [01;31m[KPurePursuitController[m[K::computeVelocityCommands(
+[2.575s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.578s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::TwistStamped ac_controller::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[2.578s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:83:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_[m[K’ was not declared in this scope; did you mean ‘[01m[Kclock_t[m[K’?
+[2.578s]    83 |         cmd_vel.header.stamp = [01;31m[Kclock_[m[K->now();
+[2.578s]       |                                [01;31m[K^~~~~~[m[K
+[2.578s]       |                                [32m[Kclock_t[m[K
+[2.581s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:85:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_plan_[m[K’ was not declared in this scope
+[2.581s]    85 |         if([01;31m[Kglobal_plan_[m[K.poses.empty()){
+[2.581s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[2.584s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:55[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:46[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:48[m[K,
+[2.584s]                  from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:42[m[K,
+[2.584s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+[2.584s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[2.584s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:86:25:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger_[m[K’ was not declared in this scope
+[2.584s]    86 |             RCLCPP_INFO([01;31m[Klogger_[m[K,"No Path Received!");
+[2.584s]       |                         [01;31m[K^~~~~~~[m[K
+[2.584s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:86:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.584s]    86 |             [01;31m[KRCLCPP_INFO[m[K(logger_,"No Path Received!");
+[2.584s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.584s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:86:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.584s]    86 |             [01;31m[KRCLCPP_INFO[m[K(logger_,"No Path Received!");
+[2.584s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.584s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:86:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.584s]    86 |             [01;31m[KRCLCPP_INFO[m[K(logger_,"No Path Received!");
+[2.584s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.588s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:89:33:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformGlobalPlan[m[K’ was not declared in this scope; did you mean ‘[01m[Ktransformed_plan[m[K’?
+[2.588s]    89 |         auto transformed_plan = [01;31m[KtransformGlobalPlan[m[K(pose);    //transform global plan to local robot frame
+[2.588s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.588s]       |                                 [32m[Ktransformed_plan[m[K
+[2.594s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:[m[K In lambda function:
+[2.594s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:90:175:[m[K [01;31m[Kerror: [m[K‘[01m[Klookahead_dist_[m[K’ was not declared in this scope
+[2.594s]    90 |         auto goal_pose_it = std::find_if(transformed_plan.poses.begin(),transformed_plan.poses.end(),[&](const auto& ps){return hypot(ps.pose.position.x,ps.pose.position.y)>=[01;31m[Klookahead_dist_[m[K; });
+[2.594s]       |                                                                                                                                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.597s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::TwistStamped ac_controller::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[2.597s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:99:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed_[m[K’ was not declared in this scope
+[2.597s]    99 |             linear_vel = -[01;31m[Kmax_speed_[m[K;
+[2.597s]       |                           [01;31m[K^~~~~~~~~~[m[K
+[2.601s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:104:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_speed_[m[K’ was not declared in this scope
+[2.601s]   104 |            angular_vel = [01;31m[Kmax_speed_[m[K * curvature;
+[2.601s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[2.602s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[2.602s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[2.602s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:4[m[K,
+[2.602s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[2.602s] /usr/include/c++/11/bits/stl_iterator.h: In instantiation of ‘[01m[Kclass std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >[m[K’:
+[2.602s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:154:66:[m[K   required from here
+[2.602s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:689:7:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kvalue_type[m[K’ in ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’
+[2.603s]   689 |       [01;31m[Koperator[m[K=(const typename _Container::value_type& __value)
+[2.603s]       |       [01;31m[K^~~~~~~~[m[K
+[2.603s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:697:7:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kvalue_type[m[K’ in ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’
+[2.603s]   697 |       [01;31m[Koperator[m[K=(typename _Container::value_type&& __value)
+[2.603s]       |       [01;31m[K^~~~~~~~[m[K
+[2.733s] In file included from [01m[K/usr/include/c++/11/algorithm:62[m[K,
+[2.733s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:42[m[K,
+[2.733s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:48[m[K,
+[2.734s]                  from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:42[m[K,
+[2.734s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+[2.734s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[2.734s] /usr/include/c++/11/bits/stl_algo.h: In instantiation of ‘[01m[K_OIter std::transform(_IIter, _IIter, _OIter, _UnaryOperation) [with _IIter = __gnu_cxx::__normal_iterator<geometry_msgs::msg::PoseStamped_<std::allocator<void> >*, std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > > >; _OIter = std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >; _UnaryOperation = ac_controller::Pure_controller::transformGlobalPlan(const PoseStamped&)::<lambda(const auto:44&)>][m[K’:
+[2.734s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:154:21:[m[K   required from here
+[2.734s] [01m[K/usr/include/c++/11/bits/stl_algo.h:4296:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >[m[K’ and ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’)
+[2.734s]  4296 |         [01;31m[K*__result = __unary_op(*__first)[m[K;
+[2.734s]       |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.734s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[2.734s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[2.734s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:4[m[K,
+[2.734s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[2.734s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:648:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >& std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >::operator=(const std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >&)[m[K’
+[2.734s]   648 |     class [01;36m[Kback_insert_iterator[m[K
+[2.734s]       |           [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.734s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:648:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >&[m[K’
+[2.734s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:648:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >& std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >::operator=(std::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >&&)[m[K’
+[2.734s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:648:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ to ‘[01m[Kstd::back_insert_iterator<nav_msgs::msg::Path_<std::allocator<void> > >&&[m[K’
+[3.784s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[3.784s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[3.784s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[3.784s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[3.784s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[3.784s]                  from [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:42[m[K,
+[3.784s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+[3.785s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[3.785s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ac_controller::Pure_controller; B = nav2_core::Controller][m[K’:
+[3.785s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[3.785s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kac_controller::Pure_controller[m[K’
+[3.785s]   218 |     return [01;31m[Knew C[m[K;
+[3.785s]       |            [01;31m[K^~~~~[m[K
+[3.785s] In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[3.785s] [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:15:11:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kac_controller::Pure_controller[m[K’:
+[3.785s]    15 |     class [01;36m[KPure_controller[m[K : public nav2_core::Controller
+[3.785s]       |           [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.785s] In file included from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.hpp:6[m[K,
+[3.785s]                  from [01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:1[m[K:
+[3.785s] [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:99:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_core::Controller::setPlan(const Path&)[m[K’
+[3.785s]    99 |   virtual void [01;36m[KsetPlan[m[K(const nav_msgs::msg::Path & path) = 0;
+[3.785s]       |                [01;36m[K^~~~~~~[m[K
+[3.785s] [01m[K/opt/ros/humble/include/nav2_core/controller.hpp:114:44:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_core::Controller::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’
+[3.785s]   114 |   virtual geometry_msgs::msg::TwistStamped [01;36m[KcomputeVelocityCommands[m[K(
+[3.785s]       |                                            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.953s] gmake[2]: *** [CMakeFiles/Yubot_controller.dir/build.make:76：CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o] 错误 1
+[3.953s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/Yubot_controller.dir/all] 错误 2
+[3.953s] gmake: *** [Makefile:146：all] 错误 2
+[3.957s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/goblue/my_ws/Yubot_controller/build/Yubot_controller -- -j20 -l20

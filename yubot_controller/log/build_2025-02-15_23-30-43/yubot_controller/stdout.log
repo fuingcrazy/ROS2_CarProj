@@ -1,0 +1,35 @@
+[100%] Built target yubot_controller
+-- Install configuration: "Release"
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/lib/libyubot_controller.so
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/include/
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/include//Yubot_controller
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/launch
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/launch/bringup.launch.py
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/params
+-- Installing: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/params/yuBot_nav2.yaml
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/params/PurePursuit.yaml
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/maps
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/maps/house.pgm
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/maps/house.yaml
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/environment/library_path.sh
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/environment/library_path.dsv
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/plugin.xml
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/ament_index/resource_index/package_run_dependencies/yubot_controller
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/ament_index/resource_index/parent_prefix_path/yubot_controller
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/environment/path.sh
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/environment/path.dsv
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/local_setup.bash
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/local_setup.sh
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/local_setup.zsh
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/local_setup.dsv
+-- Installing: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/package.dsv
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/ament_index/resource_index/packages/yubot_controller
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/yubot_controller
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/cmake/yubot_controllerConfig.cmake
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/cmake/yubot_controllerConfig-version.cmake
+-- Up-to-date: /home/goblue/my_ws/yubot_controller/install/yubot_controller/share/yubot_controller/package.xml

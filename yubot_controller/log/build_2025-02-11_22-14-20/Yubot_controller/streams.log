@@ -1,0 +1,44 @@
+[0.007s] Invoking command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/Yubot_controller -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/Yubot_controller/install/Yubot_controller
+[0.242s] -- The C compiler identification is GNU 11.4.0
+[0.890s] -- The CXX compiler identification is GNU 11.4.0
+[1.333s] -- Detecting C compiler ABI info
+[1.467s] -- Detecting C compiler ABI info - done
+[1.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.473s] -- Detecting C compile features
+[1.474s] -- Detecting C compile features - done
+[1.476s] -- Detecting CXX compiler ABI info
+[1.634s] -- Detecting CXX compiler ABI info - done
+[1.639s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.639s] -- Detecting CXX compile features
+[1.639s] -- Detecting CXX compile features - done
+[1.646s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.733s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.804s] -- Found nav2_common: 1.1.17 (/opt/ros/humble/share/nav2_common/cmake)
+[1.806s] -- Found nav2_core: 1.1.17 (/opt/ros/humble/share/nav2_core/cmake)
+[1.999s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.004s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.011s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.037s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.074s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.077s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.050s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.792s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.242s] -- Looking for pthread.h
+[9.384s] -- Looking for pthread.h - found
+[9.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.507s] -- Found Threads: TRUE  
+[9.773s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.773s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.665s] -- Setting build type to Release as none was specified.
+[11.665s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[11.665s]   ament_target_dependencies() the first argument must be a valid target name
+[11.665s] Call Stack (most recent call first):
+[11.665s]   CMakeLists.txt:38 (ament_target_dependencies)
+[11.665s] 
+[11.665s] [0m
+[11.665s] -- Configuring incomplete, errors occurred!
+[11.665s] See also "/home/goblue/my_ws/Yubot_controller/build/Yubot_controller/CMakeFiles/CMakeOutput.log".
+[11.673s] Invoked command in '/home/goblue/my_ws/Yubot_controller/build/Yubot_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/goblue/interbotix_ws/install/interbotix_xs_modules:/home/goblue/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/goblue/my_ws/Yubot_controller -DCMAKE_INSTALL_PREFIX=/home/goblue/my_ws/Yubot_controller/install/Yubot_controller

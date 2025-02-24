@@ -1,0 +1,10 @@
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/uninstall.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/yubot_controller_uninstall.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/yubot_controller.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/test.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/edit_cache.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/rebuild_cache.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/list_install_components.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/install.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/install/local.dir
+/home/goblue/my_ws/yubot_controller/build/yubot_controller/CMakeFiles/install/strip.dir
