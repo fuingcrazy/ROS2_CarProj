@@ -1,7 +1,0 @@
-[31mCMake Error at CMakeLists.txt:49 (target_include_directories):
-  Cannot specify include directories for target "my_controller_plugin" which
-  is not built by this project.
-
-[0m
-WARNING: Package name "Yubot_controller" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
-gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

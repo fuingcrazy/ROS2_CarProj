@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o[0m
-[01m[K/home/goblue/my_ws/Yubot_controller/src/pure_controller.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KYubot_controller/pure_controller.hpp: 没有那个文件或目录
-    2 | #include [01;31m[K"Yubot_controller/pure_controller.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/Yubot_controller.dir/build.make:76：CMakeFiles/Yubot_controller.dir/src/pure_controller.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/Yubot_controller.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2
