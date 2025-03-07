@@ -1,3 +1,7 @@
-fishbot/
+yubot_controller/
 navigation2/
-*.sh
+/install
+/log
+/build
+/.vscode
+/ipopt-3.12.7
