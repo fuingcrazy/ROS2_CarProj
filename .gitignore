@@ -3,5 +3,5 @@ navigation2/
 install/
 log/
 build/
-.vscode
+.vscode/
 ipopt-3.12.7/
