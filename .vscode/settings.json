@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/goblue/my_ws/yuBot_cartographer",
+    "cmake.sourceDirectory": "/home/ethanyu/car_ws/ROS2_CarProj/yubot_purepursuit_controller",
     "files.associations": {
         "cctype": "cpp",
         "clocale": "cpp",
@@ -78,6 +78,17 @@
         "climits": "cpp",
         "__locale": "cpp",
         "__node_handle": "cpp",
-        "cfenv": "cpp"
+        "cfenv": "cpp",
+        "csignal": "cpp",
+        "any": "cpp",
+        "strstream": "cpp",
+        "hash_map": "cpp",
+        "hash_set": "cpp",
+        "shared_mutex": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp",
+        "*.ipp": "cpp",
+        "core": "cpp",
+        "queue": "cpp"
     }
 }

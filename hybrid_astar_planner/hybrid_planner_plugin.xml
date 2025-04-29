@@ -1,0 +1,5 @@
+<library path="libhybrid_astar_planner_plugin">
+	<class name="hybrid_astar_planner::hybrid_planner" type="hybrid_astar_planner::hybrid_planner" base_class_type="nav2_core::GlobalPlanner">
+	  <description>This is an example plugin which produces a hybrid astar path.</description>
+	</class>
+</library>
