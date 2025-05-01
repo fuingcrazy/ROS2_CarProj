@@ -60,63 +60,6 @@ struct comparator{
 };
 using NodeList = std::priority_queue<NodePtr,NodeVector,comparator> ;
 
-struct PriorityQueue {
-    NodeList Q;
-    NodeVector elements;
-
-    bool empty()
-    {
-        return Q.empty();
-    }
-
-    bool is_member(const NodePtr& n)
-    {
-        for (auto &&node : elements)
-        {
-            if (*n == *node) return true;
-        }
-        return false;
-    }
-
-    NodePtr get_member(const NodePtr& n)
-    {
-        for (auto &&node : elements)
-        {
-            if (*n == *node) return node;
-        }
-        return NULL;
-    }
-
-    NodePtr top()
-    {
-        auto n = Q.top();
-        Q.pop();
-        int idx = -1;
-        // Remove the node from the elements vector
-        for (unsigned i = 0; i < elements.size(); i++)
-        {
-            if (*elements[i] == *n)
-            {
-                idx = i;
-                break;
-            }
-        }
-        elements.erase(elements.begin() + idx);
-        return n;
-
-    }
-
-    void push(const NodePtr& n)
-    {
-        Q.push(n);
-        elements.push_back(n);
-    }
-    int size()
-    {
-        return Q.size();
-    }
-    
-};
 
 }
 

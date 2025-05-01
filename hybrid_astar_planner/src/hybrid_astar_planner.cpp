@@ -13,8 +13,7 @@ namespace hybrid_astar_planner
      std::string name, std::shared_ptr<tf2_ros::Buffer> tf,
      std::shared_ptr<nav2_costmap_2d::Costmap2DROS> costmap_ros)
   {
-    node_ = parent;
-    auto node = node_.lock();
+    node = parent.lock();
     name_ = name;
     tf_ = tf;
     costmap_ = costmap_ros->getCostmap();
@@ -29,13 +28,13 @@ namespace hybrid_astar_planner
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".carLength", rclcpp::ParameterValue(
       0.5));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".wheelBase", rclcpp::ParameterValue(
-      0.45));
+      0.25));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".turnPenalty", rclcpp::ParameterValue(
       2.0));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".steeringChangePenalty", rclcpp::ParameterValue(
       1.5));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".noneStraight", rclcpp::ParameterValue(
-      1.2));
+      1.5));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".reversePenalty", rclcpp::ParameterValue(
       4.0));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".maxIters", rclcpp::ParameterValue(
@@ -49,7 +48,7 @@ namespace hybrid_astar_planner
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".segmentLength", rclcpp::ParameterValue(
       1.0));
   nav2_util::declare_parameter_if_not_declared(node, name_ + ".moveStepSize", rclcpp::ParameterValue(
-      0.2));
+      0.03));
   
 
   node->get_parameter(name_ + ".tolerance", tolerance_);
@@ -75,7 +74,7 @@ namespace hybrid_astar_planner
                                                                                          //radius 
   tie_breaker_ = 1.0 + 1e-3;
   SetCarShape();
-  RCLCPP_INFO(logger_, "Hybrid Astar planner initialized");
+  RCLCPP_INFO(logger_, "Hybrid Astar planner initialized, move step size: %f",move_step_size_);
 }
 
 void hybrid_planner::cleanup()
@@ -150,7 +149,7 @@ double hybrid_planner::Mod2Pi(const double x) const
    return v;
 }
 
- void hybrid_planner::getNeighbors(const NodePtr& cur_node, NodeVector neighbors)
+ void hybrid_planner::getNeighbors(const NodePtr& cur_node, NodeVector& neighbors)
  {
    neighbors.clear();
    bool has_obstacle = false;
@@ -158,7 +157,7 @@ double hybrid_planner::Mod2Pi(const double x) const
    unsigned int mx,my;
    costmap_->mapToWorld(cur_node->pos.x,cur_node->pos.y,wx,wy);
    theta = cur_node->pos.theta;
-   RCLCPP_INFO(logger_," word pos:(%d,%d)",mx,my);
+  //  RCLCPP_INFO(logger_," word pos:(%d,%d)",mx,my);
    //forward
    for(int i = -angle_quantizations_;i<=angle_quantizations_;i++){
 
@@ -285,7 +284,7 @@ nav_msgs::msg::Path hybrid_planner::createPlan(
  start_node->setOpen();
  start_node->g_cost = 0.0;
  start_node->h_cost = setH(start_node,end_node);
- PriorityQueue Open;
+ NodeList Open;
  NodeVector neighbor_nodes;
  Open.push(start_node);
 
@@ -297,11 +296,11 @@ nav_msgs::msg::Path hybrid_planner::createPlan(
  double neighbor_time = 0.0, compute_h_time = 0.0, compute_g_time = 0.0,check_collision_time;
 
  while(!Open.empty() && count < maxIters_){
-   auto cur_ptr = Open.Q.top();        //select the node with the lowest f_cost
+   NodePtr cur_ptr = Open.top();        //select the node with the lowest f_cost
    RCLCPP_INFO(logger_,"Current node: (%d,%d,%.2f)",cur_ptr->pos.x,cur_ptr->pos.y,cur_ptr->pos.theta);
-   cur_ptr->setOpen();;
+   cur_ptr->setClose();;
    count++;
-   Open.Q.pop();
+   Open.pop();
    if(count > maxIters_ ){
      RCLCPP_WARN(logger_,"Failed to find a path, max iterations reached!");
      return global_path;
@@ -309,24 +308,25 @@ nav_msgs::msg::Path hybrid_planner::createPlan(
 
    Timer get_neighbor_time;
    getNeighbors(cur_ptr,neighbor_nodes);
-   RCLCPP_INFO(logger_,"Get %d neighbors",neighbor_nodes.size());
+  //  RCLCPP_INFO(logger_,"Get %d neighbors",neighbor_nodes.size());
    neighbor_time += get_neighbor_time.End();
     
 for(auto& neighbor_ptr : neighbor_nodes){
        Timer time_get_neighbor;
-       const double current_h = setH(cur_ptr,neighbor_ptr) * tie_breaker_;
+       const double current_h = setH(neighbor_ptr,end_node) * tie_breaker_;
        compute_h_time = compute_h_time + time_get_neighbor.End();
        Timer time_get_g;
        const double neighbor_edge_cost = setG(cur_ptr,neighbor_ptr);
        compute_g_time = compute_g_time + time_get_g.End();
        
        if(check_arrive(neighbor_ptr,end_node)){
+        neighbor_ptr->parent = cur_ptr;
+        global_path = extract_path(neighbor_ptr,start_node);
         RCLCPP_INFO(logger_,"Path length: %.2f",path_length_);
         RCLCPP_INFO(logger_,"Search neighbor time: %.2f",neighbor_time);
         RCLCPP_INFO(logger_,"Compute h time: %.2f",compute_h_time);
         RCLCPP_INFO(logger_,"Compute g time: %.2f",compute_g_time);
         RCLCPP_INFO(logger_,"Check collision time: %.2f",check_collision_time);
-        global_path = extract_path(cur_ptr,start_node);
         return global_path;
        }
       
@@ -343,14 +343,12 @@ for(auto& neighbor_ptr : neighbor_nodes){
               neighbor_ptr->g_cost = cur_ptr->g_cost + neighbor_edge_cost;
               neighbor_ptr->h_cost = current_h;
               neighbor_ptr->setOpen();
-              Open.Q.push(neighbor_ptr);       //push the node to open list
+              Open.push(neighbor_ptr);       //push the node to open list
             }
        }
-       else
-         continue;       //delete the node in close list
+       
 }
-cur_ptr->setClose();
-RCLCPP_INFO(logger_," Openlist size: %d",Open.size());
+// RCLCPP_INFO(logger_," Openlist size: %d",Open.size());
 }
 }
 
@@ -384,8 +382,10 @@ bool hybrid_planner::checkValid(double& wx, double& wy, double theta, unsigned i
 nav_msgs::msg::Path hybrid_planner::extract_path(const NodePtr& end, const NodePtr& start)
 {
     nav_msgs::msg::Path path;
-    path.header.stamp = clock_->now();
+    path.header.stamp = node->now();
     path.header.frame_id = global_frame_;
+    RCLCPP_INFO(logger_,"Path start:(%d,%d,%.2f)",start->pos.x,start->pos.y,start->pos.theta);
+    RCLCPP_INFO(logger_,"Path end:(%d,%d,%.2f)",end->pos.x,end->pos.y,end->pos.theta);
     NodePtr temp = end;
     while(temp != start) {
         geometry_msgs::msg::PoseStamped pose;

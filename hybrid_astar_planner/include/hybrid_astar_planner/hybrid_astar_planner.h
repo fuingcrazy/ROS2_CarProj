@@ -43,7 +43,7 @@ namespace hybrid_astar_planner
     private:
         void DynamicModel(const double& stepsize, const double& phi, double &x, double &y, double& theta) const;
         double Mod2Pi(const double x) const;
-        void getNeighbors(const NodePtr& cur_node, NodeVector neighbors);
+        void getNeighbors(const NodePtr& cur_node, NodeVector& neighbors);
         bool check_arrive(const NodePtr& node, const NodePtr& goal);
         double setH(const NodePtr& cur_node, const NodePtr& terminal_node);
         double setG(const NodePtr& cur_node, const NodePtr& neighbor);
@@ -57,7 +57,7 @@ namespace hybrid_astar_planner
         std::shared_ptr<tf2_ros::Buffer> tf_;
         nav2_costmap_2d::Costmap2D* costmap_;
         std::shared_ptr<nav2_costmap_2d::Costmap2DROS> costmap_ros_;
-        rclcpp_lifecycle::LifecycleNode::WeakPtr node_;
+        nav2_util::LifecycleNode::SharedPtr node;
 
   // Global Costmap
   std::shared_ptr<RSPath> rs_path_ptr_;           //path pointer
